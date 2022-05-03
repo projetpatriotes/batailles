@@ -2,9 +2,9 @@
   <section class="headline" :style="{ backgroundImage: `url(${bgImage})` }">
     <div class="items">
       <h1 class="titre"><slot /></h1>
-      <p>Projet fait par William Ao, Ilian Stamm et Adnan Taha</p>
+      <p>Projet fait par William Ao et Adnan Taha</p>
     </div>
-    <div class="scroll-button" v-scroll-to="'#premiereSection, 75px'">
+    <div v-scroll-to="'#premiereSection, 75px'" class="scroll-button">
       <ArrowDownIcon />
     </div>
   </section>
@@ -31,32 +31,29 @@ export default {
 @keyframes updown {
   0%,
   100% {
-    transform: translateY(0);
+    transform: translateY(0.5rem);
   }
   50% {
-    transform: translateY(-1vw);
+    transform: translateY(-0.5rem);
   }
 }
 
 .titre {
   font-size: 4rem;
 }
-
 .scroll-button {
+  position: absolute;
   z-index: 0;
-  border-radius: 50%;
+  left: 50%;
+  top: 90%;
+  transform: translate(-50%, -90%);
+
   &:hover {
     cursor: pointer;
   }
   svg {
-    fill: white;
     animation: updown 1s linear infinite;
     animation-play-state: running;
-    display: block;
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     &:hover {
       animation-play-state: paused;
     }

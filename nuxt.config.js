@@ -1,5 +1,5 @@
 const description =
-  "Ceci est un site web fait par William, Ilian et Adnan comme un Projet Patriotes, qui est un projet inter-disciplinaire entre les cours d'histoire et de francais.";
+  "Ceci est un site web fait par William et Adnan comme un Projet Patriotes, qui est un projet inter-disciplinaire entre les cours d'histoire et de francais.";
 
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
@@ -7,10 +7,6 @@ export default {
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-
-  router: {
-    base: '/batailles/',
-  },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {

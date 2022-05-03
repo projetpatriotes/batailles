@@ -1,22 +1,31 @@
-<!-- everything in <template> is the html -->
 <template>
   <div class="nav-wrapper">
     <nav class="navbar">
       <span>Projet Patriotes</span>
       <ul class="nav">
         <li class="nav-item"><NuxtLink to="/">Acceuil</NuxtLink></li>
-        <li class="nav-item">
-          <NuxtLink to="/personnages/britanniques">Britanniques</NuxtLink>
-        </li>
         <li class="nav-item"><NuxtLink to="/a-propos">A propos</NuxtLink></li>
         <li class="nav-item"><NuxtLink to="/credits">Credits</NuxtLink></li>
       </ul>
+      <button class="hamburger-menu">
+        <HamburgerIcon />
+      </button>
     </nav>
   </div>
 </template>
 
 <!-- ok, so you dumbass forgot that it was the nav wrapper that needed the z-index and not the nav bar -->
 <style lang="scss">
+.hamburger-menu {
+  display: none;
+  width: min-content;
+  height: min-content;
+  border: none;
+  background: transparent;
+  margin-left: auto;
+  padding: 1rem;
+}
+
 .nav-wrapper {
   z-index: 1;
   width: 100%;
@@ -27,24 +36,22 @@
 }
 
 .navbar {
-  z-index: 1;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
   align-items: center;
+  flex-direction: row;
   height: $hauteur-nav;
   overflow: hidden;
   color: $text;
   span {
-    margin-left: 2vw;
     color: $text;
-    font-size: 1.2vw;
-    justify-self: start;
+    padding: 2rem;
+    font-size: 1.2rem;
   }
   ul.nav {
+    display: flex;
     list-style: none;
-    display: grid;
-    grid-auto-flow: column;
-    justify-self: end;
+    flex-direction: row;
+    margin-left: auto;
     .nav-item {
       text-align: center;
       margin-left: 10px;
@@ -61,6 +68,14 @@
     }
     &:last-child {
       margin-right: 1vw;
+    }
+  }
+  @media only screen and (hover: none) and (pointer: coarse) {
+    ul.nav {
+      display: none;
+    }
+    .hamburger-menu {
+      display: block;
     }
   }
 }

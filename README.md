@@ -1,10 +1,18 @@
-# Projet Patriotes - Batailles
+<h1 align="center">
+  Projet Patriotes - Batailles
+</h1>
 
-[![GLWTPL](https://img.shields.io/badge/License-GLWTS-red.svg)](https://github.com/me-shaon/GLWTPL)
-
-[![ci](https://github.com/projetpatriotes/batailles/actions/workflows/ci.yml/badge.svg)](https://github.com/projetpatriotes/batailles/actions/workflows/ci.yml)
-
-[![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)](https://gitmoji.dev)
+<p align="center">
+  <a href="https://github.com/me-shaon/GLWTPL">
+    <img src="https://img.shields.io/badge/License-GLWTS-red.svg" alt="GLWTPL">
+  </a>
+  <a href="https://github.com/projetpatriotes/batailles/actions/workflows/ci.yml">
+    <img src="https://github.com/projetpatriotes/batailles/actions/workflows/ci.yml/badge.svg" alt="ci">
+  </a>
+  <a href="https://gitmoji.dev">
+    <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square" alt="Gitmoji">
+  </a>
+</p>
 
 ## Build Setup
 

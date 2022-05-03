@@ -1,4 +1,4 @@
-# heros
+# Projet Patriotes - Batailles
 
 ## Build Setup
 

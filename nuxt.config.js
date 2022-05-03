@@ -9,12 +9,12 @@ export default {
   target: 'static',
 
   router: {
-    base: '/heros/',
+    base: '/batailles/',
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Projet Patriotes - Heros',
+    title: 'Projet Patriotes - Batailles',
     htmlAttrs: {
       lang: 'fr_CA',
       prefix: 'og: https://ogp.me/ns#',
@@ -29,7 +29,7 @@ export default {
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'Projet Patriotes - Heros',
+        content: 'Projet Patriotes - Batailles',
       },
       {
         hid: 'og:description',
@@ -41,7 +41,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: '/heros/img/papineau.png',
+        content: '/batailles/img/papineau.png',
       },
       {
         hid: 'og:image:alt',
@@ -52,7 +52,7 @@ export default {
       {
         hid: 'twitter:image',
         property: 'twitter:image',
-        content: '/heros/img/papineau.png',
+        content: '/batailles/img/papineau.png',
       },
       {
         hid: 'twitter:card',

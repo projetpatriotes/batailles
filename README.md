@@ -1,5 +1,11 @@
 # Projet Patriotes - Batailles
 
+[![GLWTPL](https://img.shields.io/badge/License-GLWTS-red.svg)](https://github.com/me-shaon/GLWTPL)
+
+[![ci](https://github.com/projetpatriotes/batailles/actions/workflows/ci.yml/badge.svg)](https://github.com/projetpatriotes/batailles/actions/workflows/ci.yml)
+
+[![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)](https://gitmoji.dev)
+
 ## Build Setup
 
 ```bash

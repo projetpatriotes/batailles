@@ -4,24 +4,16 @@ on:
   push:
     paths-ignore:
       - .github/**
-      - .editorconfig
-      - .eslintrc.js
       - .gitignore
-      - .jshintrc
       - .prettierignore
-      - .prettierrc
       - COPYING
       - LICENSE
       - README.md
   pull_request:
     paths-ignore:
       - .github/**
-      - .editorconfig
-      - .eslintrc.js
       - .gitignore
-      - .jshintrc
       - .prettierignore
-      - .prettierrc
       - COPYING
       - LICENSE
       - README.md

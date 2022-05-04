@@ -52,6 +52,7 @@ export default {
     cursor: pointer;
   }
   svg {
+    fill: $selection-background;
     animation: updown 1s linear infinite;
     animation-play-state: running;
     &:hover {

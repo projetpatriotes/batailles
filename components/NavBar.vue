@@ -9,32 +9,58 @@
         <li class="nav-item"><NuxtLink to="/a-propos">A propos</NuxtLink></li>
         <li class="nav-item"><NuxtLink to="/credits">Credits</NuxtLink></li>
       </ul>
-      <button
-        class="hamburger-menu"
-        @click="alert('nothing to see here folks')"
-      >
-        <HamburgerIcon />
-      </button>
+      <Slide right>
+        <NuxtLink to="/">Liste des batailles</NuxtLink>
+        <NuxtLink to="/a-propos">A propos</NuxtLink>
+        <NuxtLink to="/credits">Credits</NuxtLink>
+      </Slide>
     </nav>
   </div>
 </template>
 
-<script lang="ts">
+<script>
+import { Slide } from 'vue-burger-menu';
+
 export default {
-  methods: {
-    alert: window.alert.bind(window),
-  },
+  components: { Slide },
 };
 </script>
 
 <!-- ok, so you dumbass forgot that it was the nav wrapper that needed the z-index and not the nav bar -->
 <style lang="scss">
-.hamburger-menu {
-  display: none;
-  border: none;
-  background: transparent;
-  margin-left: auto;
-  padding: 1rem;
+.bm-burger-button {
+  margin-top: -0.5rem;
+  > .bm-burger-bars.line-style {
+    border-radius: 1rem;
+    background-color: $background;
+  }
+}
+.bm-menu {
+  background-color: $second-background;
+  border-left: 0.3rem solid $border;
+  .cross-style {
+    margin-top: 0.5rem;
+  }
+  .bm-cross {
+    background: $background;
+  }
+  .bm-item-list > a {
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    color: $text;
+    text-decoration: none;
+    border: 1px solid $text;
+    border-radius: 10px;
+    padding: 10px 30px;
+
+    &:hover,
+    &:active,
+    &:focus {
+      border-color: $selection-background;
+      color: $selection-foreground;
+      background-color: $selection-background;
+    }
+  }
 }
 
 .nav-wrapper {
@@ -63,29 +89,39 @@ export default {
     list-style: none;
     flex-direction: row;
     margin-left: auto;
+
     .nav-item {
       text-align: center;
       margin-right: 1rem;
+
       a {
         color: $text;
         text-decoration: none;
         border: 1px solid $text;
         border-radius: 10px;
         padding: 10px 30px;
-        &:hover {
+        transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+
+        &:hover,
+        &:active,
+        &:focus {
+          border-color: $selection-background;
           color: $selection-foreground;
           background-color: $selection-background;
         }
       }
     }
+
     &:last-child {
       margin-right: 1vw;
     }
   }
+
   @media only screen and (hover: none) and (pointer: coarse) {
     ul.nav {
       display: none;
     }
+
     .hamburger-menu {
       display: block;
     }

@@ -12,10 +12,7 @@
 import Vue from 'vue';
 
 export default Vue.extend({
-  async asyncData({
-    $content,
-    params,
-  }) {
+  async asyncData({ $content, params }) {
     const document = await $content(params.slug).fetch();
 
     return { document };

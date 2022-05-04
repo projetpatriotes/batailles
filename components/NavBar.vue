@@ -28,6 +28,10 @@ export default {
 
 <!-- ok, so you dumbass forgot that it was the nav wrapper that needed the z-index and not the nav bar -->
 <style lang="scss">
+ul.nav + div {
+  display: none;
+}
+
 .bm-burger-button {
   margin-top: -0.5rem;
   > .bm-burger-bars.line-style {
@@ -120,10 +124,9 @@ export default {
   @media only screen and (hover: none) and (pointer: coarse) {
     ul.nav {
       display: none;
-    }
-
-    .hamburger-menu {
-      display: block;
+      + div {
+        display: block;
+      }
     }
   }
 }

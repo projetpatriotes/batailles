@@ -20,7 +20,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: description },
       { name: 'format-detection', content: 'telephone=no' },
-      { name: 'theme-color', content: '#263238' },
+      { name: 'theme-color', content: '#e0a96d' },
       // Open Graph protocol: https://ogp.me
       {
         hid: 'og:title',
@@ -37,18 +37,18 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: '/batailles/img/papineau.png',
+        content: '/img/papineau.png',
       },
       {
         hid: 'og:image:alt',
         property: 'og:image:alt',
-        content: 'Le discours de papineau.',
+        content: 'Le discours de Louis-Joseph Papineau.',
       },
       // Twitter
       {
         hid: 'twitter:image',
         property: 'twitter:image',
-        content: '/batailles/img/papineau.png',
+        content: '/img/papineau.png',
       },
       {
         hid: 'twitter:card',
@@ -98,11 +98,5 @@ export default {
 
   styleResources: {
     scss: ['./static/scss/_variables.scss'],
-  },
-
-  fontawesome: {
-    icons: {
-      solid: ['faCaretDown'],
-    },
   },
 };

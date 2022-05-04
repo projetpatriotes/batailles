@@ -29,7 +29,7 @@ export default Vue.extend({
     };
   },
   async fetch() {
-    this.batailles = await this.$content('bataille').fetch();
+    this.batailles = await this.$content('batailles').fetch();
   },
 });
 </script>

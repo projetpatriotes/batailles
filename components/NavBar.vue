@@ -19,11 +19,12 @@
 </template>
 
 <script>
+import Vue from 'vue';
 import { Slide } from 'vue-burger-menu';
 
-export default {
+export default Vue.extend({
   components: { Slide },
-};
+});
 </script>
 
 <!-- ok, so you dumbass forgot that it was the nav wrapper that needed the z-index and not the nav bar -->

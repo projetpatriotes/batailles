@@ -11,20 +11,20 @@
 </template>
 
 <script lang="ts">
-// @ts-nocheck
+import Vue from 'vue';
 
-export default {
+export default Vue.extend({
   props: {
     image: {
       type: String,
       default: '/img/papineau.png',
     },
   },
-  data(): object {
-    const image = this.image;
-    return { bgImage: image };
+  data() {
+    const bgImage = this.image;
+    return { bgImage };
   },
-};
+});
 </script>
 
 <style lang="scss">

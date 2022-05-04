@@ -9,19 +9,15 @@
 </template>
 
 <script lang="ts">
-export default {
-  async asyncData({
-    $content,
-    params,
-  }: {
-    $content: any;
-    params: { bataille: string };
-  }) {
+import Vue from 'vue';
+
+export default Vue.extend({
+  async asyncData({ $content, params }) {
     const document = await $content('batailles', params.bataille).fetch();
 
     return { document };
   },
-};
+});
 </script>
 
 <style lang="scss"></style>

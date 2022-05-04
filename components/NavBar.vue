@@ -3,23 +3,34 @@
     <nav class="navbar">
       <span>Projet Patriotes</span>
       <ul class="nav">
-        <li class="nav-item"><NuxtLink to="/">Acceuil</NuxtLink></li>
+        <li class="nav-item">
+          <NuxtLink to="/">Liste des batailles</NuxtLink>
+        </li>
         <li class="nav-item"><NuxtLink to="/a-propos">A propos</NuxtLink></li>
         <li class="nav-item"><NuxtLink to="/credits">Credits</NuxtLink></li>
       </ul>
-      <button class="hamburger-menu">
+      <button
+        class="hamburger-menu"
+        @click="alert('nothing to see here folks')"
+      >
         <HamburgerIcon />
       </button>
     </nav>
   </div>
 </template>
 
+<script lang="ts">
+export default {
+  methods: {
+    alert: window.alert.bind(window),
+  },
+};
+</script>
+
 <!-- ok, so you dumbass forgot that it was the nav wrapper that needed the z-index and not the nav bar -->
 <style lang="scss">
 .hamburger-menu {
   display: none;
-  width: min-content;
-  height: min-content;
   border: none;
   background: transparent;
   margin-left: auto;
@@ -42,7 +53,7 @@
   height: $hauteur-nav;
   overflow: hidden;
   color: $text;
-  span {
+  > span {
     color: $text;
     padding: 2rem;
     font-size: 1.2rem;
@@ -54,15 +65,16 @@
     margin-left: auto;
     .nav-item {
       text-align: center;
-      margin-left: 10px;
+      margin-right: 1rem;
       a {
-        padding: 10px 30px;
         color: $text;
         text-decoration: none;
+        border: 1px solid $text;
+        border-radius: 10px;
+        padding: 10px 30px;
         &:hover {
           color: $selection-foreground;
           background-color: $selection-background;
-          border-radius: 10px;
         }
       }
     }

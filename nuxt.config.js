@@ -114,7 +114,7 @@ export default {
   build: {},
 
   styleResources: {
-    scss: ['./static/scss/_variables.scss'],
+    scss: ['~/static/scss/_variables.scss'],
   },
 
   generate: {

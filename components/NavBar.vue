@@ -100,7 +100,7 @@ ul.nav + div {
   display: flex;
   align-items: center;
   flex-direction: row;
-  height: $hauteur-nav;
+  height: 5rem;
   overflow: hidden;
   color: $text;
   > span {

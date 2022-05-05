@@ -63,7 +63,7 @@ export default Vue.extend({
 
 .headline {
   width: 100%;
-  height: calc(100vh - $hauteur-nav);
+  height: calc(100vh - 5rem);
   min-height: 350px;
   background: url('/img/papineau.png') fixed center;
   background-size: cover;

@@ -73,7 +73,7 @@ export default {
   css: ['~/static/scss/_basic.scss', '~/static/scss/_headings.scss'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: ['~/plugins/vue-scrollto.js'],
+  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -92,6 +92,13 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    [
+      'vue-scrollto/nuxt',
+      {
+        duration: 500,
+        easing: 'ease-in-out',
+      },
+    ],
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content

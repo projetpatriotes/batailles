@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2018",
+    "composite": true,
     "module": "ESNext",
     "moduleResolution": "Node",
     "lib": ["ESNext", "ESNext.AsyncIterable", "DOM"],
@@ -17,5 +18,15 @@
     },
     "types": ["@nuxt/types", "@nuxt/content", "@types/node"]
   },
-  "exclude": ["node_modules", ".nuxt", "dist"]
+  "include": ["vite.config.ts"],
+  "exclude": ["node_modules", ".nuxt", "dist"],
+  // https://github.com/nuxt/typescript/issues/537#issuecomment-1050054649
+  "vueCompilerOptions": {
+    "experimentalCompatMode": 2, // delete after migrating to vue3 (or nuxt3)
+    "experimentalTemplateCompilerOptions": {
+      "compatConfig": {
+        "MODE": 2
+      } // delete after migrating to vue3 (or nuxt3)
+    }
+  }
 }

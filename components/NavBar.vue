@@ -6,12 +6,23 @@
         <li class="nav-item">
           <NuxtLink to="/">Liste des batailles</NuxtLink>
         </li>
+        <li class="nav-item">
+          <DropDown :items="items">
+            <NuxtLink to="/bibliographie">Test</NuxtLink>
+          </DropDown>
+        </li>
         <li class="nav-item"><NuxtLink to="/a-propos">À propos</NuxtLink></li>
+        <li class="nav-item">
+          <NuxtLink to="/bibliographie">Bibliographie</NuxtLink>
+        </li>
         <li class="nav-item"><NuxtLink to="/credits">Crédits</NuxtLink></li>
       </ul>
       <Slide right>
         <NuxtLink to="/">Liste des batailles</NuxtLink>
         <NuxtLink to="/a-propos">À propos</NuxtLink>
+        <li class="nav-item">
+          <NuxtLink to="/bibliographie">Bibliographie</NuxtLink>
+        </li>
         <NuxtLink to="/credits">Crédits</NuxtLink>
       </Slide>
     </nav>
@@ -24,6 +35,14 @@ import { Slide } from 'vue-burger-menu';
 
 export default Vue.extend({
   components: { Slide },
+  data: () => ({
+    items: [
+      { name: 'work 1', url: 'https://example.com' },
+      { name: 'play 2', url: 'https://example.com' },
+      { name: 'sleep 3', url: 'https://example.com' },
+      { name: 'eat 4', url: 'https://example.com' },
+    ],
+  }),
 });
 </script>
 

@@ -5,6 +5,7 @@
     <ParagrapheTexte>
       <NuxtContent class="texte" :document="document" />
     </ParagrapheTexte>
+    <FooterBar />
   </div>
 </template>
 
@@ -13,7 +14,7 @@ import Vue from 'vue';
 
 export default Vue.extend({
   async asyncData({ $content, params }) {
-    const document = await $content('batailles', params.bataille).fetch();
+    const document = await $content('bataille', params.bataille).fetch();
 
     return { document };
   },

@@ -4,7 +4,7 @@
       <h1 class="titre"><slot /></h1>
       <p>Projet fait par William Ao et Adnan Taha</p>
     </div>
-    <div v-scroll-to="'#premiereSection, 75px'" class="scroll-button">
+    <div v-scroll-to="'#premiereSection'" class="scroll-button">
       <ArrowDownIcon />
     </div>
   </section>

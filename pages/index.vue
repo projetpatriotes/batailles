@@ -5,14 +5,14 @@
     <ParagrapheTexte>
       <ul>
         <li v-for="(bataille, index) in batailles" :key="index">
-          <NuxtLink :to="'/bataille' + bataille.path">{{
-            bataille.title
-          }}</NuxtLink>
+          <NuxtLink :to="bataille.path">{{ bataille.title }}</NuxtLink>
         </li>
       </ul>
     </ParagrapheTexte>
+    <FooterBar />
   </div>
 </template>
+<!-- -->
 
 <script lang="ts">
 // @ts-nocheck
@@ -29,7 +29,20 @@ export default Vue.extend({
     };
   },
   async fetch() {
-    this.batailles = await this.$content('batailles').fetch();
+    this.batailles = await this.$content('bataille').fetch();
   },
 });
 </script>
+
+<style lang="scss" scoped>
+.markdown-content {
+  a {
+    color: $text;
+    text-decoration: underline;
+    &:hover {
+      font-weight: bold;
+      text-decoration: underline double;
+    }
+  }
+}
+</style>

@@ -1,5 +1,5 @@
 <template>
-  <section id="premiereSection" class="paragraphe">
+  <section id="premiereSection" class="paragraphe markdown-content">
     <slot />
   </section>
 </template>

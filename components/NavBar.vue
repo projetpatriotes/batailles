@@ -6,13 +6,13 @@
         <li class="nav-item">
           <NuxtLink to="/">Liste des batailles</NuxtLink>
         </li>
-        <li class="nav-item"><NuxtLink to="/a-propos">A propos</NuxtLink></li>
-        <li class="nav-item"><NuxtLink to="/credits">Credits</NuxtLink></li>
+        <li class="nav-item"><NuxtLink to="/a-propos">À propos</NuxtLink></li>
+        <li class="nav-item"><NuxtLink to="/credits">Crédits</NuxtLink></li>
       </ul>
       <Slide right>
         <NuxtLink to="/">Liste des batailles</NuxtLink>
-        <NuxtLink to="/a-propos">A propos</NuxtLink>
-        <NuxtLink to="/credits">Credits</NuxtLink>
+        <NuxtLink to="/a-propos">À propos</NuxtLink>
+        <NuxtLink to="/credits">Crédits</NuxtLink>
       </Slide>
     </nav>
   </div>

@@ -62,6 +62,10 @@ export default {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap',
       },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap',
+      },
     ],
   },
 
@@ -69,7 +73,7 @@ export default {
   css: ['~/static/scss/_basic.scss', '~/static/scss/_headings.scss'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: ['~/plugins/vue-scroll-to.js'],
+  plugins: ['~/plugins/vue-scrollto.js'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,

@@ -17,12 +17,9 @@
 <script lang="ts">
 // @ts-nocheck
 import Vue from 'vue';
-import ParagrapheTexte from '~/components/ParagrapheTexte.vue';
-import NavBar from '~/components/NavBar.vue';
 
 export default Vue.extend({
   name: 'IndexPage',
-  components: { ParagrapheTexte, NavBar },
   data() {
     return {
       batailles: [],

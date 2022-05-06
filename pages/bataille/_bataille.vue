@@ -3,7 +3,7 @@
     <NavBar />
     <HeadLine>{{ document.title }}</HeadLine>
     <ParagrapheTexte>
-      <NuxtContent class="texte" :document="document" />
+      <NuxtContent class="markdown-content" :document="document" />
     </ParagrapheTexte>
     <FooterBar />
   </div>
@@ -21,4 +21,12 @@ export default Vue.extend({
 });
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+.markdown-content a {
+  text-decoration: underline;
+  &:hover {
+    font-weight: bold;
+    text-decoration: underline double;
+  }
+}
+</style>

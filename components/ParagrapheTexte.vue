@@ -1,18 +1,10 @@
 <template>
-  <section id="premiereSection" class="paragraphe markdown-content">
+  <section id="premiereSection" class="paragraphe">
     <slot />
   </section>
 </template>
 
 <style lang="scss">
-.markdown-content a {
-  text-decoration: underline;
-  &:hover {
-    font-weight: bold;
-    text-decoration: underline double;
-  }
-}
-
 .paragraphe {
   height: auto;
   padding: 1vw;

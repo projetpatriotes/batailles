@@ -34,15 +34,4 @@ export default Vue.extend({
 });
 </script>
 
-<style lang="scss" scoped>
-.markdown-content {
-  a {
-    color: $text;
-    text-decoration: underline;
-    &:hover {
-      font-weight: bold;
-      text-decoration: underline double;
-    }
-  }
-}
-</style>
+<style lang="scss" scoped></style>

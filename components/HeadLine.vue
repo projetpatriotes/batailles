@@ -12,8 +12,10 @@
 
 <script lang="ts">
 import Vue from 'vue';
+import ArrowDownIcon from '~/components/icons/ArrowDownIcon.vue';
 
 export default Vue.extend({
+  components: { ArrowDownIcon },
   props: {
     image: {
       type: String,

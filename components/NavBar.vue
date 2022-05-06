@@ -32,9 +32,10 @@
 <script>
 import Vue from 'vue';
 import { Slide } from 'vue-burger-menu';
+import DropDown from '~/components/subcomponents/DropDown.vue';
 
 export default Vue.extend({
-  components: { Slide },
+  components: { Slide, DropDown },
   data: () => ({
     items: [
       { name: 'work 1', url: 'https://example.com' },

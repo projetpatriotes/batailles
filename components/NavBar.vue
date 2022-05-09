@@ -4,12 +4,7 @@
       <span>Projet Patriotes</span>
       <ul class="nav">
         <li class="nav-item">
-          <NuxtLink to="/">Liste des batailles</NuxtLink>
-        </li>
-        <li class="nav-item">
-          <DropDown :items="items">
-            <NuxtLink to="/bibliographie">Test</NuxtLink>
-          </DropDown>
+          <DropDown titre="Liste des batailles" />
         </li>
         <li class="nav-item"><NuxtLink to="/a-propos">À propos</NuxtLink></li>
         <li class="nav-item">
@@ -30,20 +25,13 @@
 </template>
 
 <script>
+// @ts-nocheck
 import Vue from 'vue';
 import { Slide } from 'vue-burger-menu';
 import DropDown from '~/components/subcomponents/DropDown.vue';
 
 export default Vue.extend({
   components: { Slide, DropDown },
-  data: () => ({
-    items: [
-      { name: 'work 1', url: 'https://example.com' },
-      { name: 'play 2', url: 'https://example.com' },
-      { name: 'sleep 3', url: 'https://example.com' },
-      { name: 'eat 4', url: 'https://example.com' },
-    ],
-  }),
 });
 </script>
 
@@ -102,7 +90,6 @@ ul.nav + div {
   align-items: center;
   flex-direction: row;
   height: 5rem;
-  overflow: hidden;
   color: $text;
   > span {
     color: $text;
@@ -114,17 +101,21 @@ ul.nav + div {
     list-style: none;
     flex-direction: row;
     margin-left: auto;
+    align-items: center;
+    align-content: center;
 
     .nav-item {
       text-align: center;
-      margin-right: 1rem;
+      margin: 0.5rem;
+      position: relative;
 
-      a {
+      a,
+      button {
         color: $text;
         text-decoration: none;
         border: 1px solid $text;
-        border-radius: 10px;
-        padding: 10px 30px;
+        border-radius: 0.625rem;
+        padding: 0.625rem 1.875rem;
         transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 
         &:hover,

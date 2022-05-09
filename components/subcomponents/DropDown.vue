@@ -39,7 +39,7 @@ export default Vue.extend({
   }),
 
   created() {
-    window.addEventListener('click', this.close);
+    window.addEventListener('click', this.close); // eslint-disable-line nuxt/no-globals-in-created
   },
 
   beforeDestroy() {

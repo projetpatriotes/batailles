@@ -226,40 +226,10 @@
         "signature": "ef52f094c015dde960c4ed8ae6d244b6fb45109e60c35897edc14b2844e062c7",
         "affectsGlobalScope": true
       },
-      "./node_modules/vue/types/vnode.d.ts": {
-        "version": "e4ffcf0874c04af41261bc47240f8a07e0a6c6b92ee27535037d1b84562a0a9a",
-        "signature": "e4ffcf0874c04af41261bc47240f8a07e0a6c6b92ee27535037d1b84562a0a9a",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/vue/types/options.d.ts": {
-        "version": "a93869a6d95326dab9f38ecbbd51081048ebfd699ac18841178ddf83de90d9f4",
-        "signature": "a93869a6d95326dab9f38ecbbd51081048ebfd699ac18841178ddf83de90d9f4",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/vue/types/plugin.d.ts": {
-        "version": "e8cc0280272ae461f8dc6eef59712323d9eea7abfd455a8d4861601f3c5a9a6f",
-        "signature": "e8cc0280272ae461f8dc6eef59712323d9eea7abfd455a8d4861601f3c5a9a6f",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/vue/types/vue.d.ts": {
-        "version": "d946d4a97ba86fd0857f7fca9c5a859b74d0df8d1f4a3cf5c4587b499c4b81b0",
-        "signature": "d946d4a97ba86fd0857f7fca9c5a859b74d0df8d1f4a3cf5c4587b499c4b81b0",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/vue/types/umd.d.ts": {
-        "version": "dc645f5824d760b61e34dff04adb5ee53b8efc3735a974c53d0ffb4e70d0f2d2",
-        "signature": "dc645f5824d760b61e34dff04adb5ee53b8efc3735a974c53d0ffb4e70d0f2d2",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/vue/types/index.d.ts": {
-        "version": "4a75e4b3cb109dcf5e977cb8ab1c8f9804073b37fa7f094785ee8014efdeabf4",
-        "signature": "4a75e4b3cb109dcf5e977cb8ab1c8f9804073b37fa7f094785ee8014efdeabf4",
-        "affectsGlobalScope": false
-      },
-      "./components/FooterBar.vue.ts": {
-        "version": "3b94aa40f4664a3866a36cd41b24046f4b8dc2dc328854efc1bce648690f4c2f",
-        "signature": "c97a324454694ff76d7406f75193ec5e43c35da4cf7eee74ea9d1358337cd149",
-        "affectsGlobalScope": false
+      "./tsconfig.json": {
+        "version": "335ce08436bd156006b5ef30d0ec24a47fff5801d46665ef629afa08c31225f8",
+        "signature": "a04fa88be99c9fefd1259f55c91525deef9347c0250c1a325b6f5ff0e58b228f",
+        "affectsGlobalScope": true
       },
       "./node_modules/@types/node/assert.d.ts": {
         "version": "0cba3a5d7b81356222594442753cf90dd2892e5ccfe1d262aaca6896ba6c1380",
@@ -519,6 +489,36 @@
       "./node_modules/@nuxt/types/node_modules/@types/connect/index.d.ts": {
         "version": "81c14b89fa607b86dd726e2e3e91360cf8155ce97468404324d404a5bd65b2eb",
         "signature": "81c14b89fa607b86dd726e2e3e91360cf8155ce97468404324d404a5bd65b2eb",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vue/types/vnode.d.ts": {
+        "version": "e4ffcf0874c04af41261bc47240f8a07e0a6c6b92ee27535037d1b84562a0a9a",
+        "signature": "e4ffcf0874c04af41261bc47240f8a07e0a6c6b92ee27535037d1b84562a0a9a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vue/types/options.d.ts": {
+        "version": "a93869a6d95326dab9f38ecbbd51081048ebfd699ac18841178ddf83de90d9f4",
+        "signature": "a93869a6d95326dab9f38ecbbd51081048ebfd699ac18841178ddf83de90d9f4",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vue/types/plugin.d.ts": {
+        "version": "e8cc0280272ae461f8dc6eef59712323d9eea7abfd455a8d4861601f3c5a9a6f",
+        "signature": "e8cc0280272ae461f8dc6eef59712323d9eea7abfd455a8d4861601f3c5a9a6f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vue/types/vue.d.ts": {
+        "version": "d946d4a97ba86fd0857f7fca9c5a859b74d0df8d1f4a3cf5c4587b499c4b81b0",
+        "signature": "d946d4a97ba86fd0857f7fca9c5a859b74d0df8d1f4a3cf5c4587b499c4b81b0",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vue/types/umd.d.ts": {
+        "version": "dc645f5824d760b61e34dff04adb5ee53b8efc3735a974c53d0ffb4e70d0f2d2",
+        "signature": "dc645f5824d760b61e34dff04adb5ee53b8efc3735a974c53d0ffb4e70d0f2d2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vue/types/index.d.ts": {
+        "version": "4a75e4b3cb109dcf5e977cb8ab1c8f9804073b37fa7f094785ee8014efdeabf4",
+        "signature": "4a75e4b3cb109dcf5e977cb8ab1c8f9804073b37fa7f094785ee8014efdeabf4",
         "affectsGlobalScope": false
       },
       "./node_modules/vue-router/types/vue.d.ts": {
@@ -1473,6 +1473,13 @@
       }
     },
     "options": {
+      "isolatedModules": true,
+      "declaration": true,
+      "resolveJsonModule": true,
+      "skipLibCheck": true,
+      "strictNullChecks": true,
+      "noImplicitReturns": true,
+      "noImplicitAny": true,
       "target": 5,
       "composite": true,
       "module": 99,
@@ -1484,8 +1491,8 @@
       ],
       "esModuleInterop": true,
       "allowJs": true,
+      "checkJs": true,
       "sourceMap": false,
-      "strict": true,
       "noEmit": true,
       "experimentalDecorators": true,
       "baseUrl": "./",
@@ -1502,17 +1509,12 @@
         "@nuxt/content",
         "@types/node"
       ],
-      "skipLibCheck": true,
       "inlineSourceMap": false,
       "declarationMap": false,
-      "pathsBasePath": "C:/Users/botato/Desktop/School/batailles",
+      "pathsBasePath": "D:/computer/School/batailles",
       "configFilePath": "./tsconfig.json"
     },
     "referencedMap": {
-      "./components/FooterBar.vue.ts": [
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/vue/types/index.d.ts"
-      ],
       "./node_modules/@babel/parser/typings/babel-parser.d.ts": [
         "./node_modules/@babel/types/lib/index.d.ts",
         "./node_modules/@types/node/util.d.ts"
@@ -3055,13 +3057,12 @@
       ],
       "./stylelint.config.js": [
         "./node_modules/@types/node/util.d.ts"
+      ],
+      "./tsconfig.json": [
+        "./node_modules/@types/node/util.d.ts"
       ]
     },
     "exportedModulesMap": {
-      "./components/FooterBar.vue.ts": [
-        "./node_modules/vue/types/index.d.ts",
-        "./node_modules/vue/types/vue.d.ts"
-      ],
       "./node_modules/@babel/parser/typings/babel-parser.d.ts": [
         "./node_modules/@babel/types/lib/index.d.ts",
         "./node_modules/@types/node/util.d.ts"
@@ -4601,7 +4602,6 @@
       ]
     },
     "semanticDiagnosticsPerFile": [
-      "./components/FooterBar.vue.ts",
       "./node_modules/@babel/parser/typings/babel-parser.d.ts",
       "./node_modules/@babel/types/lib/index.d.ts",
       "./node_modules/@lokidb/loki/types/common/types.d.ts",
@@ -4894,7 +4894,8 @@
       "./node_modules/vuex/types/logger.d.ts",
       "./node_modules/vuex/types/vue.d.ts",
       "./nuxt.config.js",
-      "./stylelint.config.js"
+      "./stylelint.config.js",
+      "./tsconfig.json"
     ],
     "affectedFilesPendingEmit": [
       [
@@ -4927,6 +4928,18 @@
       ],
       [
         "./components/ParagrapheTexte.vue.js",
+        1
+      ],
+      [
+        "./components/Personnage.vue.ts",
+        1
+      ],
+      [
+        "./components/icons/ArrowDownIcon.vue.js",
+        1
+      ],
+      [
+        "./components/subcomponents/DropDown.vue.ts",
         1
       ],
       [
@@ -6114,7 +6127,15 @@
         1
       ],
       [
+        "./pages/personnages/_personnage.vue.js",
+        1
+      ],
+      [
         "./stylelint.config.js",
+        1
+      ],
+      [
+        "./tsconfig.json",
         1
       ]
     ]

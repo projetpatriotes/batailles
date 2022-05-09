@@ -1,5 +1,12 @@
 {
   "compilerOptions": {
+    "isolatedModules": true,
+    "declaration": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
     "target": "ES2018",
     "composite": true,
     "module": "ESNext",
@@ -7,8 +14,8 @@
     "lib": ["ESNext", "ESNext.AsyncIterable", "DOM"],
     "esModuleInterop": true,
     "allowJs": true,
+    "checkJs": true,
     "sourceMap": true,
-    "strict": true,
     "noEmit": true,
     "experimentalDecorators": true,
     "baseUrl": ".",

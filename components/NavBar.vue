@@ -13,11 +13,17 @@
         <li class="nav-item"><NuxtLink to="/credits">Crédits</NuxtLink></li>
       </ul>
       <Slide right>
+        <details>
+          <summary>Liste des batailles</summary>
+          <ul>
+            <li>
+              <NuxtLink to="https://example.com">aaaaaaaaaaaaaaa</NuxtLink>
+            </li>
+          </ul>
+        </details>
         <NuxtLink to="/">Liste des batailles</NuxtLink>
         <NuxtLink to="/a-propos">À propos</NuxtLink>
-        <li class="nav-item">
-          <NuxtLink to="/bibliographie">Bibliographie</NuxtLink>
-        </li>
+        <NuxtLink to="/bibliographie">Bibliographie</NuxtLink>
         <NuxtLink to="/credits">Crédits</NuxtLink>
       </Slide>
     </nav>

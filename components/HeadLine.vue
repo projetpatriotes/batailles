@@ -1,7 +1,10 @@
 <template>
-  <section class="headline" :style="{ backgroundImage: `url(${bgImage})` }">
+  <section
+    class="headline"
+    :style="{ backgroundImage: `url(${$props.image})` }"
+  >
     <div class="items">
-      <h1 class="titre"><slot /></h1>
+      <h1 class="titre">{{ $props.titre }}</h1>
       <p>Projet fait par William Ao et Adnan Taha</p>
     </div>
     <div v-scroll-to="'#premiereSection'" class="scroll-button">
@@ -17,14 +20,14 @@ import ArrowDownIcon from '~/components/icons/ArrowDownIcon.vue';
 export default Vue.extend({
   components: { ArrowDownIcon },
   props: {
+    titre: {
+      type: String,
+      default: 'Personnages',
+    },
     image: {
       type: String,
       default: '/img/papineau.png',
     },
-  },
-  data() {
-    const bgImage = this.image;
-    return { bgImage };
   },
 });
 </script>

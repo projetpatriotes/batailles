@@ -1,7 +1,7 @@
 <template>
   <div>
     <NavBar />
-    <HeadLine>{{ document.title }}</HeadLine>
+    <HeadLine :titre="document.title" :image="document.image" />
     <ParagrapheTexte>
       <NuxtContent class="markdown-content" :document="document" />
     </ParagrapheTexte>

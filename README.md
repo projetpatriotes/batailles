@@ -1,5 +1,5 @@
 <h1 align="center">
-  Projet Patriotes - Batailles
+  Projet Patriotes
 </h1>
 
 <p align="center">

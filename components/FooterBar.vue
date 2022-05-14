@@ -2,10 +2,16 @@
 <template>
   <section class="footer">
     <footer>
+      <div class="credits">
+        C'est un projet inter-disciplinaire de l'École internationale de
+        Montréal, en collaboration entre les cours d'histoire et de français de
+        secondaire 3, de l'année scolaire 2021-2022.
+      </div>
+      <br />
       <div class="copyright">
-        Copyright © 2022-present William Ao et Adnan Taha. Ce travail est
+        Copyright © 2021-present William Ao et Adnan Taha. Ce travail est
         licensé sous la
-        <a :href="licenseUrl" target="_blank"> License Publique GLWTS </a>
+        <a :href="licenseUrl" target="_blank"> License Publique DBAD </a>
       </div>
     </footer>
   </section>
@@ -17,12 +23,12 @@ import Vue from 'vue';
 export default Vue.extend({
   data: () => ({
     licenseUrl:
-      'https://github.com/me-shaon/GLWTPL/raw/master/translations/NSFW_LICENSE_fr-FR',
+      'https://github.com/philsturgeon/dbad/raw/master/translations/LICENSE-fr.md',
   }),
 });
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 footer {
   background-color: #201e20;
   color: white;
@@ -37,5 +43,8 @@ footer {
       color: #6f49ad;
     }
   }
+}
+.copyright {
+  font-size: 0.9em;
 }
 </style>

@@ -1,5 +1,5 @@
 if (-not (Get-Command git -ErrorAction SilentlyContinue)) {
-  Write-Host Git is missing. Download it. -ForegroundColor Red
+  Write-Host Git-SCM is missing. Download it. Dumbass. -ForegroundColor Red
   exit 1
 }
 

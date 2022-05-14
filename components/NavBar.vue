@@ -3,8 +3,9 @@
     <nav class="navbar">
       <span>Projet Patriotes</span>
       <ul class="nav">
+        <li class="nav-item"><NuxtLink to="/">Accueil</NuxtLink></li>
         <li class="nav-item">
-          <DropDown titre="Liste des batailles" />
+          <DropDown titre="Liste des batailles" :items="listeDesBatailles" />
         </li>
         <li class="nav-item"><NuxtLink to="/a-propos">À propos</NuxtLink></li>
         <li class="nav-item">
@@ -17,7 +18,7 @@
           <summary>Liste des batailles</summary>
           <ul>
             <li>
-              <NuxtLink to="https://example.com">aaaaaaaaaaaaaaa</NuxtLink>
+              <NuxtLink to="https://example.com">example.com</NuxtLink>
             </li>
           </ul>
         </details>
@@ -38,6 +39,14 @@ import DropDown from '~/components/subcomponents/DropDown.vue';
 
 export default Vue.extend({
   components: { Slide, DropDown },
+  data() {
+    return { listeDesBatailles: [] };
+  },
+  async fetch({ $content }) {
+    this.listeDesBatailles = await $content('bataille')
+      .only(['title', 'path'])
+      .fetch();
+  },
 });
 </script>
 

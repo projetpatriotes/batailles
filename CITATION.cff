@@ -1,0 +1,36 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Projet Patriotes
+message: >-
+  Si vous utilisez ce logiciel, veuillez le citer
+  comme suit.
+type: software
+authors:
+  - given-names: Adnan
+    family-names: Taha
+    email: tahaa9@csdmedu.ca
+    affiliation: École internationale de Montréal (Étudiant)
+  - given-names: William
+    family-names: Ao
+    email: aow@csdmedu.ca
+    affiliation: École internationale de Montréal (Étudiant)
+repository-code: >-
+  https://github.com/projetpatriotes/projetpatriotes.github.io
+url: 'https://projetpatriotes.github.io'
+repository-artifact: >-
+  https://github.com/projetpatriotes/projetpatriotes.github.io/archive/refs/heads/master.zip
+abstract: >-
+  C'est un projet inter-disciplinaire de l'École
+  internationale de Montréal, en collaboration entre
+  les cours d'histoire et de français de secondaire
+  3, de l'année scolaire 2021-2022.
+keywords:
+  - website
+  - projetpatriotes
+  - eim
+  - nuxt
+  - nuxtjs
+  - vue
+license: DBAD

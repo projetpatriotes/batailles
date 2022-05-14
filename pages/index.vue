@@ -3,7 +3,7 @@
     <NavBar />
     <HeadLine>Liste des batailles</HeadLine>
     <ParagrapheTexte>
-      <ul>
+      <ul class="bataille">
         <li v-for="(bataille, index) in batailles" :key="index">
           <NuxtLink :to="bataille.path">{{ bataille.title }}</NuxtLink>
         </li>
@@ -31,4 +31,9 @@ export default Vue.extend({
 });
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+ul.bataille {
+  text-decoration: none;
+  list-style: none;
+}
+</style>

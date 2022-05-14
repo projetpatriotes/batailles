@@ -5,9 +5,9 @@
     </button>
     <ul v-show="dropdownOpen">
       <li v-for="(item, index) in items" :key="index">
-        <a :href="item.url">
-          {{ item.name }}
-        </a>
+        <NuxtLink :to="item.path">
+          {{ item.title }}
+        </NuxtLink>
       </li>
     </ul>
   </div>
@@ -24,14 +24,10 @@ export default Vue.extend({
     },
     items: {
       type: Array,
-      default: () => [
-        { name: 'work 1', url: 'https://example.com' },
-        { name: 'play 2', url: 'https://example.com' },
-        { name: 'sleep 3', url: 'https://example.com' },
-        { name: 'eat 4', url: 'https://example.com' },
-      ],
+      required: true,
     },
   },
+
   // thank you https://laracasts.com/discuss/channels/vue/close-dropdown-when-click-another-element#best-reply-401904
   // you have my regards, kind stranger
   data: () => ({

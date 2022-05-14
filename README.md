@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/me-shaon/GLWTPL">
-    <img src="https://img.shields.io/badge/License-GLWTS-red.svg" alt="GLWTPL">
+    <img src="https://img.shields.io/badge/License-DBAD-red.svg" alt="GLWTPL">
   </a>
   <a href="https://github.com/projetpatriotes/batailles/actions/workflows/ci.yml">
     <img src="https://github.com/projetpatriotes/batailles/actions/workflows/ci.yml/badge.svg" alt="ci">

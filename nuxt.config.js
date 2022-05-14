@@ -90,12 +90,6 @@ export default {
     '@nuxtjs/stylelint-module',
     // https://github.com/nuxt-community/style-resources-module
     '@nuxtjs/style-resources',
-    [
-      '@nuxtjs/vuetify',
-      {
-        /* module options */
-      },
-    ],
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

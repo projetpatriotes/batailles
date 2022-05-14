@@ -217,8 +217,8 @@
         "affectsGlobalScope": true
       },
       "./nuxt.config.js": {
-        "version": "25e8f624452db96247e0557fda97440a7043af6c9d0e7a71d2b6ee1614d020c4",
-        "signature": "296a1823460e7f8c706f48d2a8bbb310149d70ec0255e87f718aa4382df558d6",
+        "version": "57416892a8f356b17e863a192b4bc91e10af5292ac7d4d53b9830563a3d2a761",
+        "signature": "a189c53d1cf194e5f64dbf1e20b90736ec159f3b68d1013f275f4df212631d5a",
         "affectsGlobalScope": false
       },
       "./stylelint.config.js": {

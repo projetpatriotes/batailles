@@ -22,7 +22,7 @@ export default Vue.extend({
   props: {
     titre: {
       type: String,
-      default: 'Personnages',
+      default: 'Projet Patriotes',
     },
     image: {
       type: String,

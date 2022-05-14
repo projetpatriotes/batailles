@@ -1,5 +1,5 @@
 ---
-title: Bibliographie
+description: Bibliographie
 ---
 
 # Bibliographie

@@ -18,7 +18,7 @@ export default Vue.extend({
   props: {
     categorie: {
       type: String,
-      default: 'personnage',
+      default: 'personnages',
     },
   },
   data() {

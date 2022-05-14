@@ -13,7 +13,6 @@
         <li class="nav-item">
           <NuxtLink to="/bibliographie">Bibliographie</NuxtLink>
         </li>
-        <li class="nav-item"><NuxtLink to="/credits">Crédits</NuxtLink></li>
       </ul>
       <Slide right>
         <details>
@@ -25,9 +24,7 @@
           </ul>
         </details>
         <NuxtLink to="/">Liste des batailles</NuxtLink>
-        <NuxtLink to="/a-propos">À propos</NuxtLink>
         <NuxtLink to="/bibliographie">Bibliographie</NuxtLink>
-        <NuxtLink to="/credits">Crédits</NuxtLink>
       </Slide>
     </nav>
   </div>
@@ -37,15 +34,14 @@
 // @ts-nocheck
 import Vue from 'vue';
 import { Slide } from 'vue-burger-menu';
-import DropDown from '~/components/subcomponents/DropDown.vue';
 
 export default Vue.extend({
-  components: { Slide, DropDown },
+  components: { Slide },
   data() {
     return { listeDesBatailles: [] };
   },
-  async fetch({ $content }) {
-    this.listeDesBatailles = await $content('bataille')
+  async fetch() {
+    this.listeDesBatailles = await this.$content('batailles')
       .only(['title', 'path'])
       .fetch();
   },
@@ -125,6 +121,10 @@ ul.nav + div {
       text-align: center;
       margin: 0.5rem;
       position: relative;
+
+      &:last-of-type {
+        margin-right: 1rem;
+      }
 
       a,
       button {

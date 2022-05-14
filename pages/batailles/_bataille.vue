@@ -1,21 +1,21 @@
 <template>
   <div>
     <NavBar />
-    <HeadLine :titre="page.title" :image="page.image" />
+    <HeadLine :titre="page.description" :image="page.image" />
     <ParagrapheTexte>
-      <NuxtContent class="markdown-content" :document="page"></NuxtContent>
+      <NuxtContent class="markdown-content" :document="page" />
     </ParagrapheTexte>
     <FooterBar />
   </div>
 </template>
 
 <script lang="ts">
-// @ts-nocheck
 import Vue from 'vue';
 
 export default Vue.extend({
   async asyncData({ $content, params }) {
-    const page = await $content('page', params.slug).fetch();
+    const page = await $content('batailles', params.bataille).fetch();
+
     return { page };
   },
 });

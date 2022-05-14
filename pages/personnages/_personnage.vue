@@ -1,9 +1,9 @@
 <template>
   <div>
     <NavBar />
-    <HeadLine :titre="document.title" :image="document.image" />
+    <HeadLine :titre="page.description" :image="page.image" />
     <ParagrapheTexte>
-      <NuxtContent class="markdown-content" :document="document" />
+      <NuxtContent class="markdown-content" :document="page" />
     </ParagrapheTexte>
     <FooterBar />
   </div>
@@ -14,12 +14,11 @@ import Vue from 'vue';
 
 export default Vue.extend({
   async asyncData({ $content, params }) {
-    const document = await $content('personage', params.personnage).fetch();
+    const page = await $content('personnages', params.personnage).fetch();
 
-    return { document };
+    return { page };
   },
 });
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss"></style>

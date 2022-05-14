@@ -70,7 +70,11 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['~/static/scss/_basic.scss', '~/static/scss/_headings.scss'],
+  css: [
+    '~/static/scss/_basic.scss',
+    '~/static/scss/_headings.scss',
+    '~/static/scss/_scrollbar.scss',
+  ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],

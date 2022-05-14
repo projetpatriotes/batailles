@@ -7,7 +7,9 @@
         <li class="nav-item">
           <DropDown titre="Liste des batailles" :items="listeDesBatailles" />
         </li>
-        <li class="nav-item"><NuxtLink to="/a-propos">À propos</NuxtLink></li>
+        <li class="nav-item">
+          <NuxtLink to="/personnages">Personnages</NuxtLink>
+        </li>
         <li class="nav-item">
           <NuxtLink to="/bibliographie">Bibliographie</NuxtLink>
         </li>

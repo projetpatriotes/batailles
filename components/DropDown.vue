@@ -60,6 +60,11 @@ export default Vue.extend({
   flex-direction: column;
   align-items: center;
   align-content: center;
+  button {
+    background-color: transparent;
+    font-size: 1rem;
+    cursor: pointer;
+  }
   ul {
     width: 100%;
     top: 2rem;
@@ -73,8 +78,7 @@ export default Vue.extend({
     }
     li {
       padding: 1rem 1.5rem;
-      a,
-      button {
+      a {
         &:hover,
         &:active,
         &:focus {

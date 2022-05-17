@@ -113,7 +113,7 @@ la communauté.
 ## Attributions
 
 Ce code de conduite est adapté du
-[Contributor Covenant](https://www.contributor-covenant.org), version 2.0,
+[Contributor Covenant][homepage], version 2.0,
 disponible à
 [https://www.contributor-covenant.org/version/2/0/code_of_conduct.html][v2.0].
 

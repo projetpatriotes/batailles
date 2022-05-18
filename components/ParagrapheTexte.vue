@@ -8,7 +8,6 @@
 .paragraphe {
   height: auto;
   padding: 1vw;
-  color: $text;
   ul {
     padding-left: 1.5vw;
   }

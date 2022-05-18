@@ -1,7 +1,7 @@
 h1,
 p {
-  color: $text;
   line-height: 1.4;
+  color: $text;
 }
 
 h1 {
@@ -9,9 +9,9 @@ h1 {
 }
 
 h2 {
-  color: $foreground;
   font-size: 2rem;
-  margin-bottom: 10px;
+  margin-bottom: 0.5rem;
+  color: $foreground;
 }
 
 svg {

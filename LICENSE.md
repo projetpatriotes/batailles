@@ -2,7 +2,7 @@
 
 > Version 1, December 2009
 
-> Copyright © 2021-présent `Adnan Taha` <tahaa9@csdmedu.ca> et `William Ao` <williama@csdmedu.ca>
+> Copyright © 2021-présent `Adnan Taha` <tahaa9@csdmedu.ca> et `William Ao` <aow@csdmedu.ca>
 
 Chacun peut copier et distribuer des copies identiques ou
 modifiées de ce document. Dans le cas de modifications, le nom de l’auteur

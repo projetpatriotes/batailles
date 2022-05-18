@@ -26,7 +26,7 @@ export default Vue.extend({
     },
     image: {
       type: String,
-      default: '/img/papineau.png',
+      default: '/img/arriere-plans/papineau.png',
     },
   },
 });
@@ -70,7 +70,7 @@ export default Vue.extend({
   width: 100%;
   height: calc(100vh - 5rem);
   min-height: 350px;
-  background: url('/img/papineau.png') fixed center;
+  background: url('/img/arriere-plans/papineau.png') fixed center;
   background-size: cover;
   display: flex;
   flex-direction: column;

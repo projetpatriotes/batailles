@@ -8,7 +8,13 @@
           <DropDown titre="Liste des batailles" :items="listeDesBatailles" />
         </li>
         <li class="nav-item">
-          <NuxtLink to="/personnages">Personnages</NuxtLink>
+          <DropDown
+            titre="Liste des personnages"
+            :items="[
+              { title: 'Anglais', path: '/personnages/anglais' },
+              { title: 'Français', path: '/personnages/francais' },
+            ]"
+          />
         </li>
         <li class="nav-item">
           <NuxtLink to="/bibliographie">Bibliographie</NuxtLink>
@@ -131,8 +137,8 @@ ul.nav + div {
         color: $text;
         text-decoration: none;
         border: 1px solid $text;
-        border-radius: 0.625rem;
-        padding: 0.625rem 1.875rem;
+        border-radius: 0.75rem;
+        padding: 0.75rem 1.5rem;
         transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 
         &:hover,

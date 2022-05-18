@@ -60,11 +60,7 @@ export default {
       { rel: 'icon', type: 'image/png', href: '/favicon.png' },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap',
-      },
-      {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap',
+        href: 'https://fonts.googleapis.com/css2?family=Open+Sans&display=swap',
       },
     ],
   },
@@ -102,6 +98,7 @@ export default {
       'vue-scrollto/nuxt',
       {
         duration: 500,
+        offset: -75,
         easing: 'ease-in-out',
       },
     ],

@@ -9,13 +9,12 @@
           :key="index"
           class="personnage"
         >
-          <h2>{{ personnage.nom }}</h2>
-          <NuxtImg
-            :src="
-              personnage.image ? personnage.image : '/img/portraits/default.png'
-            "
-          />
-          <NuxtContent class="markdown-content" :document="personnage" />
+          <NuxtImg v-show="index % 2 !== 0" :src="personnage.image" />
+          <div class="text">
+            <h2>{{ personnage.nom }}</h2>
+            <NuxtContent class="markdown-content" :document="personnage" />
+          </div>
+          <NuxtImg v-show="index % 2 === 0" :src="personnage.image" />
         </li>
       </ul>
     </section>
@@ -46,12 +45,15 @@ export default Vue.extend({
     display: flex;
     flex-flow: column nowrap;
     list-style-type: none;
-    li {
-      flex: 0 0 auto;
-    }
   }
 }
 .personnage {
+  @media only screen and (hover: none) and (pointer: coarse) {
+    flex-flow: column nowrap;
+    align-items: cen;
+  }
+  display: flex;
+  flex-flow: row nowrap;
   padding: 2rem;
   margin-bottom: 1.5rem;
   border-radius: 1rem;
@@ -59,11 +61,15 @@ export default Vue.extend({
   &:last-of-type {
     margin-bottom: 0;
   }
-  img:nth-child(even) {
-    float: right;
+  .text {
+    padding: 0 1em 1em 1em;
+    overflow: hidden;
   }
-  img:nth-child(odd) {
-    color: left;
+  img {
+    margin-left: auto;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
   }
 }
 </style>

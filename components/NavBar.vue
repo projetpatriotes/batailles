@@ -111,7 +111,7 @@ ul.nav + div {
   height: 5rem;
   color: $text;
   > span {
-    color: $text;
+    color: $selection-background;
     padding: 2rem;
     font-size: 1.2rem;
   }

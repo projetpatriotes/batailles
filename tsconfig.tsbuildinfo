@@ -272,8 +272,8 @@
         "affectsGlobalScope": false
       },
       "./components/HeadLine.vue.ts": {
-        "version": "0eb0e46b493b92e23e08b9b2bc22f497f80c907059d7008a5c23ae7623676ecc",
-        "signature": "1415f6e37ea3ace8ea567e65264819f90c291ee8fccf002b4ce916610b8d0e8d",
+        "version": "c889c1bdf6cd3c87554eaac91fa5eb722f4fa2a007355ad2a9c9d85611e56eb5",
+        "signature": "b9afe8e3b5ee6b0736d9a2b6e62afb694a2a8ea4faf8948a7fadf00a9eeff2b4",
         "affectsGlobalScope": false
       },
       "./components/NavBar.vue.js": {
@@ -1515,16 +1515,6 @@
         "version": "c0c240492237c2b4cfc04eb0a0867f0f5f4e2596617acc39bb758abd4add5824",
         "signature": "c0c240492237c2b4cfc04eb0a0867f0f5f4e2596617acc39bb758abd4add5824",
         "affectsGlobalScope": false
-      },
-      "./node_modules/ipx/dist/index.d.ts": {
-        "version": "8b7e2863eed7bf0ed5ff0449688e39d3d8fd210cb87fa1fc25c1bdd304bd8154",
-        "signature": "8b7e2863eed7bf0ed5ff0449688e39d3d8fd210cb87fa1fc25c1bdd304bd8154",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@nuxt/image/dist/types.d.ts": {
-        "version": "59c7a913f564b07f8dc3f615dd983cd3267a6ec5f31f4a8f84bb0e4d0e56d65c",
-        "signature": "59c7a913f564b07f8dc3f615dd983cd3267a6ec5f31f4a8f84bb0e4d0e56d65c",
-        "affectsGlobalScope": false
       }
     },
     "options": {
@@ -1835,7 +1825,6 @@
         "./node_modules/@nuxt/content/types/content.d.ts",
         "./node_modules/@nuxt/content/types/database.d.ts",
         "./node_modules/@nuxt/content/types/highlighter.d.ts",
-        "./node_modules/@nuxt/image/dist/types.d.ts",
         "./node_modules/@nuxt/types/app/vue.d.ts",
         "./node_modules/@nuxt/types/app/vuex.d.ts",
         "./node_modules/@nuxt/types/config/hooks.d.ts",
@@ -1876,19 +1865,6 @@
         "./node_modules/@nuxt/content/types/content.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
-      "./node_modules/@nuxt/image/dist/types.d.ts": [
-        "./node_modules/@nuxt/content/types/index.d.ts",
-        "./node_modules/@nuxt/types/app/vue.d.ts",
-        "./node_modules/@nuxt/types/app/vuex.d.ts",
-        "./node_modules/@nuxt/types/index.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/ipx/dist/index.d.ts",
-        "./node_modules/vue-meta/types/vue.d.ts",
-        "./node_modules/vue-router/types/vue.d.ts",
-        "./node_modules/vue/types/vue.d.ts",
-        "./node_modules/vuex/types/index.d.ts",
-        "./node_modules/vuex/types/vue.d.ts"
-      ],
       "./node_modules/@nuxt/telemetry/dist/index.d.ts": [
         "./node_modules/@nuxt/components/dist/index.d.ts",
         "./node_modules/@nuxt/types/config/index.d.ts",
@@ -1909,7 +1885,6 @@
       ],
       "./node_modules/@nuxt/types/app/vue.d.ts": [
         "./node_modules/@nuxt/content/types/index.d.ts",
-        "./node_modules/@nuxt/image/dist/types.d.ts",
         "./node_modules/@nuxt/types/app/index.d.ts",
         "./node_modules/@nuxt/types/config/runtime.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1924,7 +1899,6 @@
       ],
       "./node_modules/@nuxt/types/app/vuex.d.ts": [
         "./node_modules/@nuxt/content/types/index.d.ts",
-        "./node_modules/@nuxt/image/dist/types.d.ts",
         "./node_modules/@nuxt/types/app/index.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/vue-router/types/index.d.ts",
@@ -2727,10 +2701,6 @@
       "./node_modules/immutable/dist/immutable.d.ts": [
         "./node_modules/@types/node/util.d.ts"
       ],
-      "./node_modules/ipx/dist/index.d.ts": [
-        "./node_modules/@types/node/http.d.ts",
-        "./node_modules/@types/node/util.d.ts"
-      ],
       "./node_modules/mdast-util-definitions/types/index.d.ts": [
         "./node_modules/@types/mdast/index.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -3054,7 +3024,6 @@
       ],
       "./node_modules/vue-meta/types/vue.d.ts": [
         "./node_modules/@nuxt/content/types/index.d.ts",
-        "./node_modules/@nuxt/image/dist/types.d.ts",
         "./node_modules/@nuxt/types/app/vue.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/vue-meta/types/vue-meta.d.ts",
@@ -3075,7 +3044,6 @@
       ],
       "./node_modules/vue-router/types/vue.d.ts": [
         "./node_modules/@nuxt/content/types/index.d.ts",
-        "./node_modules/@nuxt/image/dist/types.d.ts",
         "./node_modules/@nuxt/types/app/vue.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/vue-meta/types/vue.d.ts",
@@ -3144,7 +3112,6 @@
       ],
       "./node_modules/vuex/types/vue.d.ts": [
         "./node_modules/@nuxt/content/types/index.d.ts",
-        "./node_modules/@nuxt/image/dist/types.d.ts",
         "./node_modules/@nuxt/types/app/vue.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/vue-meta/types/vue.d.ts",
@@ -3473,19 +3440,6 @@
         "./node_modules/@nuxt/content/types/content.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
-      "./node_modules/@nuxt/image/dist/types.d.ts": [
-        "./node_modules/@nuxt/content/types/index.d.ts",
-        "./node_modules/@nuxt/types/app/vue.d.ts",
-        "./node_modules/@nuxt/types/app/vuex.d.ts",
-        "./node_modules/@nuxt/types/index.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/ipx/dist/index.d.ts",
-        "./node_modules/vue-meta/types/vue.d.ts",
-        "./node_modules/vue-router/types/vue.d.ts",
-        "./node_modules/vue/types/vue.d.ts",
-        "./node_modules/vuex/types/index.d.ts",
-        "./node_modules/vuex/types/vue.d.ts"
-      ],
       "./node_modules/@nuxt/telemetry/dist/index.d.ts": [
         "./node_modules/@nuxt/components/dist/index.d.ts",
         "./node_modules/@nuxt/types/config/index.d.ts",
@@ -4320,10 +4274,6 @@
         "./node_modules/fast-glob/out/index.d.ts"
       ],
       "./node_modules/immutable/dist/immutable.d.ts": [
-        "./node_modules/@types/node/util.d.ts"
-      ],
-      "./node_modules/ipx/dist/index.d.ts": [
-        "./node_modules/@types/node/http.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
       "./node_modules/mdast-util-definitions/types/index.d.ts": [
@@ -4815,7 +4765,6 @@
       "./node_modules/@nuxt/content/types/parsers/xml/index.d.ts",
       "./node_modules/@nuxt/content/types/parsers/yaml/index.d.ts",
       "./node_modules/@nuxt/content/types/query-builder.d.ts",
-      "./node_modules/@nuxt/image/dist/types.d.ts",
       "./node_modules/@nuxt/telemetry/dist/index.d.ts",
       "./node_modules/@nuxt/types/app/index.d.ts",
       "./node_modules/@nuxt/types/app/vue.d.ts",
@@ -4961,7 +4910,6 @@
       "./node_modules/fast-glob/out/types/index.d.ts",
       "./node_modules/globby/index.d.ts",
       "./node_modules/immutable/dist/immutable.d.ts",
-      "./node_modules/ipx/dist/index.d.ts",
       "./node_modules/mdast-util-definitions/types/index.d.ts",
       "./node_modules/mdast-util-to-hast/types/index.d.ts",
       "./node_modules/p-queue/dist/index.d.ts",

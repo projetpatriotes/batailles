@@ -7,7 +7,11 @@
       <h1 class="titre">{{ $props.titre }}</h1>
       <p>Projet fait par William Ao et Adnan Taha</p>
     </div>
-    <div v-scroll-to="'#premiereSection'" class="scroll-button">
+    <div
+      v-show="!$props.noarrow"
+      v-scroll-to="'#premiereSection'"
+      class="scroll-button"
+    >
       <ArrowDownIcon />
     </div>
   </section>
@@ -27,6 +31,10 @@ export default Vue.extend({
     image: {
       type: String,
       default: '/img/arriere-plans/papineau.png',
+    },
+    noarrow: {
+      type: Boolean,
+      default: false,
     },
   },
 });

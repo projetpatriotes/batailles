@@ -37,7 +37,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: '/img/papineau.png',
+        content: '/img/arriere-plans/papineau.png',
       },
       {
         hid: 'og:image:alt',
@@ -48,7 +48,7 @@ export default {
       {
         hid: 'twitter:image',
         property: 'twitter:image',
-        content: '/img/papineau.png',
+        content: '/img/arriere-plans/papineau.png',
       },
       {
         hid: 'twitter:card',
@@ -90,6 +90,8 @@ export default {
     '@nuxtjs/stylelint-module',
     // https://github.com/nuxt-community/style-resources-module
     '@nuxtjs/style-resources',
+    // https://image.nuxtjs.org
+    '@nuxt/image',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

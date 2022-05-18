@@ -217,7 +217,7 @@
         "affectsGlobalScope": true
       },
       "./nuxt.config.js": {
-        "version": "57416892a8f356b17e863a192b4bc91e10af5292ac7d4d53b9830563a3d2a761",
+        "version": "1f5cdc60f23114be85ebc3bfc7bcac589c5dc2a5235abd88b8a92444f487a14f",
         "signature": "a189c53d1cf194e5f64dbf1e20b90736ec159f3b68d1013f275f4df212631d5a",
         "affectsGlobalScope": false
       },
@@ -226,90 +226,10 @@
         "signature": "ef52f094c015dde960c4ed8ae6d244b6fb45109e60c35897edc14b2844e062c7",
         "affectsGlobalScope": true
       },
-      "./node_modules/vue/types/vnode.d.ts": {
-        "version": "e4ffcf0874c04af41261bc47240f8a07e0a6c6b92ee27535037d1b84562a0a9a",
-        "signature": "e4ffcf0874c04af41261bc47240f8a07e0a6c6b92ee27535037d1b84562a0a9a",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/vue/types/options.d.ts": {
-        "version": "a93869a6d95326dab9f38ecbbd51081048ebfd699ac18841178ddf83de90d9f4",
-        "signature": "a93869a6d95326dab9f38ecbbd51081048ebfd699ac18841178ddf83de90d9f4",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/vue/types/plugin.d.ts": {
-        "version": "e8cc0280272ae461f8dc6eef59712323d9eea7abfd455a8d4861601f3c5a9a6f",
-        "signature": "e8cc0280272ae461f8dc6eef59712323d9eea7abfd455a8d4861601f3c5a9a6f",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/vue/types/vue.d.ts": {
-        "version": "d946d4a97ba86fd0857f7fca9c5a859b74d0df8d1f4a3cf5c4587b499c4b81b0",
-        "signature": "d946d4a97ba86fd0857f7fca9c5a859b74d0df8d1f4a3cf5c4587b499c4b81b0",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/vue/types/umd.d.ts": {
-        "version": "dc645f5824d760b61e34dff04adb5ee53b8efc3735a974c53d0ffb4e70d0f2d2",
-        "signature": "dc645f5824d760b61e34dff04adb5ee53b8efc3735a974c53d0ffb4e70d0f2d2",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/vue/types/index.d.ts": {
-        "version": "4a75e4b3cb109dcf5e977cb8ab1c8f9804073b37fa7f094785ee8014efdeabf4",
-        "signature": "4a75e4b3cb109dcf5e977cb8ab1c8f9804073b37fa7f094785ee8014efdeabf4",
-        "affectsGlobalScope": false
-      },
-      "./components/DropDown.vue.ts": {
-        "version": "6d84a508b42029ad45c04ead09c20e58b76e5ffacddc4dd3d8df240589cd13bb",
-        "signature": "9610508d066b46effe7aa1e0ca4d0f0aad530da258ac992d3d5f7a032638bd2f",
-        "affectsGlobalScope": false
-      },
-      "./components/FooterBar.vue.ts": {
-        "version": "fc4922aa060cb8497fd52b105d39381a39120508ff58d63e682315c0dd4ebd17",
-        "signature": "c97a324454694ff76d7406f75193ec5e43c35da4cf7eee74ea9d1358337cd149",
-        "affectsGlobalScope": false
-      },
-      "./components/icons/ArrowDownIcon.vue.js": {
-        "version": "450f0af4f4c1ecc4c7180f2e364c8a59bfed69dd350fb6b47bce8641c2a37786",
-        "signature": "0c492fd83d092a9a8793e961b9b1e8ef1168e0ea5cd510468047a171344ab3fb",
-        "affectsGlobalScope": false
-      },
-      "./components/HeadLine.vue.ts": {
-        "version": "b0c71205ce6a97e47507694d190f46f0bec4cc55d6125b6ffe78caf122777352",
-        "signature": "1415f6e37ea3ace8ea567e65264819f90c291ee8fccf002b4ce916610b8d0e8d",
-        "affectsGlobalScope": false
-      },
-      "./components/ListeItems.vue.ts": {
-        "version": "e6d9614e167b2ddff63c00a3906981c36f95c5912d3578ceb19e394539b00057",
-        "signature": "a973b54521f50ac3be4ea87dcf7e31f6f294334375be8d5b9f6ccfe6fe8eb4b3",
-        "affectsGlobalScope": false
-      },
-      "./components/NavBar.vue.js": {
-        "version": "b07bc60c9184c5c2115c17e4b10d8ac464be62d406a950ea312e3a75746dd91a",
-        "signature": "a21aba74eb8c88889ad62038008479597dce24aa8e41bcac99ab0113b3d25482",
-        "affectsGlobalScope": false
-      },
-      "./components/ParagrapheTexte.vue.js": {
-        "version": "450f0af4f4c1ecc4c7180f2e364c8a59bfed69dd350fb6b47bce8641c2a37786",
-        "signature": "0c492fd83d092a9a8793e961b9b1e8ef1168e0ea5cd510468047a171344ab3fb",
-        "affectsGlobalScope": false
-      },
-      "./pages/bibliographie.vue.ts": {
-        "version": "f2d080d2101260633356c92aec2a1302266f865c57db837f146f917e5a7b3f2c",
-        "signature": "e761d4e9d1739689ed6c67cdc93fb6de46df5649a71fa06e0a58fc0e4c8c86d8",
-        "affectsGlobalScope": false
-      },
-      "./pages/index.vue.js": {
-        "version": "450f0af4f4c1ecc4c7180f2e364c8a59bfed69dd350fb6b47bce8641c2a37786",
-        "signature": "0c492fd83d092a9a8793e961b9b1e8ef1168e0ea5cd510468047a171344ab3fb",
-        "affectsGlobalScope": false
-      },
-      "./pages/batailles/_bataille.vue.ts": {
-        "version": "06d7521106cba4a0648580f07357ebd7ef4f5781a818e6222aaab6a6af0c5c00",
-        "signature": "e761d4e9d1739689ed6c67cdc93fb6de46df5649a71fa06e0a58fc0e4c8c86d8",
-        "affectsGlobalScope": false
-      },
-      "./pages/personnages/_personnage.vue.ts": {
-        "version": "b81164452d4912d1b57539b657a5a8cc8569f01a35667ee1022d8091b0b0e0ef",
-        "signature": "e761d4e9d1739689ed6c67cdc93fb6de46df5649a71fa06e0a58fc0e4c8c86d8",
-        "affectsGlobalScope": false
+      "./tsconfig.json": {
+        "version": "ebcb35f7c58851d65bf0b1e5a14be044ec98470b903951e59d0908226db9e5ea",
+        "signature": "a04fa88be99c9fefd1259f55c91525deef9347c0250c1a325b6f5ff0e58b228f",
+        "affectsGlobalScope": true
       },
       "./node_modules/@types/node/assert.d.ts": {
         "version": "0cba3a5d7b81356222594442753cf90dd2892e5ccfe1d262aaca6896ba6c1380",
@@ -427,8 +347,8 @@
         "affectsGlobalScope": true
       },
       "./node_modules/@types/node/net.d.ts": {
-        "version": "287b21dc1d1b9701c92e15e7dd673dfe6044b15812956377adffb6f08825b1bc",
-        "signature": "287b21dc1d1b9701c92e15e7dd673dfe6044b15812956377adffb6f08825b1bc",
+        "version": "963fe86b2ebd07a34b92b52c6532ab45ec5ccda218a6c477de354fcad2aae0cb",
+        "signature": "963fe86b2ebd07a34b92b52c6532ab45ec5ccda218a6c477de354fcad2aae0cb",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/node/os.d.ts": {
@@ -472,8 +392,8 @@
         "affectsGlobalScope": false
       },
       "./node_modules/@types/node/stream.d.ts": {
-        "version": "00fa7ce8bc8acc560dc341bbfdf37840a8c59e6a67c9bfa3fa5f36254df35db2",
-        "signature": "00fa7ce8bc8acc560dc341bbfdf37840a8c59e6a67c9bfa3fa5f36254df35db2",
+        "version": "821dcb2b571bf698841d8ec25fde9d5f615ef3958957227962602f9dbfa8d800",
+        "signature": "821dcb2b571bf698841d8ec25fde9d5f615ef3958957227962602f9dbfa8d800",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/node/stream/promises.d.ts": {
@@ -497,8 +417,8 @@
         "affectsGlobalScope": false
       },
       "./node_modules/@types/node/timers.d.ts": {
-        "version": "3345c276cab0e76dda86c0fb79104ff915a4580ba0f3e440870e183b1baec476",
-        "signature": "3345c276cab0e76dda86c0fb79104ff915a4580ba0f3e440870e183b1baec476",
+        "version": "af9771b066ec35ffa1c7db391b018d2469d55e51b98ae95e62b6cbef1b0169ca",
+        "signature": "af9771b066ec35ffa1c7db391b018d2469d55e51b98ae95e62b6cbef1b0169ca",
         "affectsGlobalScope": true
       },
       "./node_modules/@types/node/timers/promises.d.ts": {
@@ -569,6 +489,36 @@
       "./node_modules/@nuxt/types/node_modules/@types/connect/index.d.ts": {
         "version": "81c14b89fa607b86dd726e2e3e91360cf8155ce97468404324d404a5bd65b2eb",
         "signature": "81c14b89fa607b86dd726e2e3e91360cf8155ce97468404324d404a5bd65b2eb",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vue/types/vnode.d.ts": {
+        "version": "e4ffcf0874c04af41261bc47240f8a07e0a6c6b92ee27535037d1b84562a0a9a",
+        "signature": "e4ffcf0874c04af41261bc47240f8a07e0a6c6b92ee27535037d1b84562a0a9a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vue/types/options.d.ts": {
+        "version": "a93869a6d95326dab9f38ecbbd51081048ebfd699ac18841178ddf83de90d9f4",
+        "signature": "a93869a6d95326dab9f38ecbbd51081048ebfd699ac18841178ddf83de90d9f4",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vue/types/plugin.d.ts": {
+        "version": "e8cc0280272ae461f8dc6eef59712323d9eea7abfd455a8d4861601f3c5a9a6f",
+        "signature": "e8cc0280272ae461f8dc6eef59712323d9eea7abfd455a8d4861601f3c5a9a6f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vue/types/vue.d.ts": {
+        "version": "d946d4a97ba86fd0857f7fca9c5a859b74d0df8d1f4a3cf5c4587b499c4b81b0",
+        "signature": "d946d4a97ba86fd0857f7fca9c5a859b74d0df8d1f4a3cf5c4587b499c4b81b0",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vue/types/umd.d.ts": {
+        "version": "dc645f5824d760b61e34dff04adb5ee53b8efc3735a974c53d0ffb4e70d0f2d2",
+        "signature": "dc645f5824d760b61e34dff04adb5ee53b8efc3735a974c53d0ffb4e70d0f2d2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vue/types/index.d.ts": {
+        "version": "4a75e4b3cb109dcf5e977cb8ab1c8f9804073b37fa7f094785ee8014efdeabf4",
+        "signature": "4a75e4b3cb109dcf5e977cb8ab1c8f9804073b37fa7f094785ee8014efdeabf4",
         "affectsGlobalScope": false
       },
       "./node_modules/vue-router/types/vue.d.ts": {
@@ -642,8 +592,8 @@
         "affectsGlobalScope": true
       },
       "./node_modules/@babel/types/lib/index.d.ts": {
-        "version": "2ff9995137f3e5d68971388ec58af0c79721626323884513f9f5e2e996ac1fdd",
-        "signature": "2ff9995137f3e5d68971388ec58af0c79721626323884513f9f5e2e996ac1fdd",
+        "version": "0db7fa7d3603e0719e20669d44a64291ce5f018bff0d4c889b188d6930819bcd",
+        "signature": "0db7fa7d3603e0719e20669d44a64291ce5f018bff0d4c889b188d6930819bcd",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/babel__generator/index.d.ts": {
@@ -652,8 +602,8 @@
         "affectsGlobalScope": false
       },
       "./node_modules/@babel/parser/typings/babel-parser.d.ts": {
-        "version": "8670878e030b88a469db43b36ef90ffa208e74faf249416feeb8fbb6b646b4a9",
-        "signature": "8670878e030b88a469db43b36ef90ffa208e74faf249416feeb8fbb6b646b4a9",
+        "version": "a46a2e69d12afe63876ec1e58d70e5dbee6d3e74132f4468f570c3d69f809f1c",
+        "signature": "a46a2e69d12afe63876ec1e58d70e5dbee6d3e74132f4468f570c3d69f809f1c",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/babel__template/index.d.ts": {
@@ -1520,6 +1470,16 @@
         "version": "c0c240492237c2b4cfc04eb0a0867f0f5f4e2596617acc39bb758abd4add5824",
         "signature": "c0c240492237c2b4cfc04eb0a0867f0f5f4e2596617acc39bb758abd4add5824",
         "affectsGlobalScope": false
+      },
+      "./node_modules/ipx/dist/index.d.ts": {
+        "version": "8b7e2863eed7bf0ed5ff0449688e39d3d8fd210cb87fa1fc25c1bdd304bd8154",
+        "signature": "8b7e2863eed7bf0ed5ff0449688e39d3d8fd210cb87fa1fc25c1bdd304bd8154",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@nuxt/image/dist/types.d.ts": {
+        "version": "59c7a913f564b07f8dc3f615dd983cd3267a6ec5f31f4a8f84bb0e4d0e56d65c",
+        "signature": "59c7a913f564b07f8dc3f615dd983cd3267a6ec5f31f4a8f84bb0e4d0e56d65c",
+        "affectsGlobalScope": false
       }
     },
     "options": {
@@ -1557,6 +1517,7 @@
       "types": [
         "@nuxt/types",
         "@nuxt/content",
+        "@nuxt/image",
         "@types/node"
       ],
       "inlineSourceMap": false,
@@ -1565,33 +1526,6 @@
       "configFilePath": "./tsconfig.json"
     },
     "referencedMap": {
-      "./components/DropDown.vue.ts": [
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/vue/types/index.d.ts"
-      ],
-      "./components/FooterBar.vue.ts": [
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/vue/types/index.d.ts"
-      ],
-      "./components/HeadLine.vue.ts": [
-        "./components/icons/ArrowDownIcon.vue.js",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/vue/types/index.d.ts"
-      ],
-      "./components/ListeItems.vue.ts": [
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/vue/types/index.d.ts"
-      ],
-      "./components/NavBar.vue.js": [
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/vue/types/index.d.ts"
-      ],
-      "./components/ParagrapheTexte.vue.js": [
-        "./node_modules/@types/node/util.d.ts"
-      ],
-      "./components/icons/ArrowDownIcon.vue.js": [
-        "./node_modules/@types/node/util.d.ts"
-      ],
       "./node_modules/@babel/parser/typings/babel-parser.d.ts": [
         "./node_modules/@babel/types/lib/index.d.ts",
         "./node_modules/@types/node/util.d.ts"
@@ -1833,6 +1767,7 @@
         "./node_modules/@nuxt/content/types/content.d.ts",
         "./node_modules/@nuxt/content/types/database.d.ts",
         "./node_modules/@nuxt/content/types/highlighter.d.ts",
+        "./node_modules/@nuxt/image/dist/types.d.ts",
         "./node_modules/@nuxt/types/app/vue.d.ts",
         "./node_modules/@nuxt/types/app/vuex.d.ts",
         "./node_modules/@nuxt/types/config/hooks.d.ts",
@@ -1873,6 +1808,19 @@
         "./node_modules/@nuxt/content/types/content.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
+      "./node_modules/@nuxt/image/dist/types.d.ts": [
+        "./node_modules/@nuxt/content/types/index.d.ts",
+        "./node_modules/@nuxt/types/app/vue.d.ts",
+        "./node_modules/@nuxt/types/app/vuex.d.ts",
+        "./node_modules/@nuxt/types/index.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/ipx/dist/index.d.ts",
+        "./node_modules/vue-meta/types/vue.d.ts",
+        "./node_modules/vue-router/types/vue.d.ts",
+        "./node_modules/vue/types/vue.d.ts",
+        "./node_modules/vuex/types/index.d.ts",
+        "./node_modules/vuex/types/vue.d.ts"
+      ],
       "./node_modules/@nuxt/telemetry/dist/index.d.ts": [
         "./node_modules/@nuxt/components/dist/index.d.ts",
         "./node_modules/@nuxt/types/config/index.d.ts",
@@ -1893,6 +1841,7 @@
       ],
       "./node_modules/@nuxt/types/app/vue.d.ts": [
         "./node_modules/@nuxt/content/types/index.d.ts",
+        "./node_modules/@nuxt/image/dist/types.d.ts",
         "./node_modules/@nuxt/types/app/index.d.ts",
         "./node_modules/@nuxt/types/config/runtime.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1907,6 +1856,7 @@
       ],
       "./node_modules/@nuxt/types/app/vuex.d.ts": [
         "./node_modules/@nuxt/content/types/index.d.ts",
+        "./node_modules/@nuxt/image/dist/types.d.ts",
         "./node_modules/@nuxt/types/app/index.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/vue-router/types/index.d.ts",
@@ -2709,6 +2659,10 @@
       "./node_modules/immutable/dist/immutable.d.ts": [
         "./node_modules/@types/node/util.d.ts"
       ],
+      "./node_modules/ipx/dist/index.d.ts": [
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
       "./node_modules/mdast-util-definitions/types/index.d.ts": [
         "./node_modules/@types/mdast/index.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -3032,6 +2986,7 @@
       ],
       "./node_modules/vue-meta/types/vue.d.ts": [
         "./node_modules/@nuxt/content/types/index.d.ts",
+        "./node_modules/@nuxt/image/dist/types.d.ts",
         "./node_modules/@nuxt/types/app/vue.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/vue-meta/types/vue-meta.d.ts",
@@ -3052,6 +3007,7 @@
       ],
       "./node_modules/vue-router/types/vue.d.ts": [
         "./node_modules/@nuxt/content/types/index.d.ts",
+        "./node_modules/@nuxt/image/dist/types.d.ts",
         "./node_modules/@nuxt/types/app/vue.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/vue-meta/types/vue.d.ts",
@@ -3120,6 +3076,7 @@
       ],
       "./node_modules/vuex/types/vue.d.ts": [
         "./node_modules/@nuxt/content/types/index.d.ts",
+        "./node_modules/@nuxt/image/dist/types.d.ts",
         "./node_modules/@nuxt/types/app/vue.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/vue-meta/types/vue.d.ts",
@@ -3132,45 +3089,14 @@
       "./nuxt.config.js": [
         "./node_modules/@types/node/util.d.ts"
       ],
-      "./pages/batailles/_bataille.vue.ts": [
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/vue/types/index.d.ts"
-      ],
-      "./pages/bibliographie.vue.ts": [
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/vue/types/index.d.ts"
-      ],
-      "./pages/index.vue.js": [
+      "./stylelint.config.js": [
         "./node_modules/@types/node/util.d.ts"
       ],
-      "./pages/personnages/_personnage.vue.ts": [
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/vue/types/index.d.ts"
-      ],
-      "./stylelint.config.js": [
+      "./tsconfig.json": [
         "./node_modules/@types/node/util.d.ts"
       ]
     },
     "exportedModulesMap": {
-      "./components/DropDown.vue.ts": [
-        "./node_modules/vue/types/index.d.ts",
-        "./node_modules/vue/types/vue.d.ts"
-      ],
-      "./components/FooterBar.vue.ts": [
-        "./node_modules/vue/types/index.d.ts",
-        "./node_modules/vue/types/vue.d.ts"
-      ],
-      "./components/HeadLine.vue.ts": [
-        "./node_modules/vue/types/index.d.ts",
-        "./node_modules/vue/types/vue.d.ts"
-      ],
-      "./components/ListeItems.vue.ts": [
-        "./node_modules/vue/types/index.d.ts",
-        "./node_modules/vue/types/vue.d.ts"
-      ],
-      "./components/NavBar.vue.js": [
-        "./node_modules/vue/types/vue.d.ts"
-      ],
       "./node_modules/@babel/parser/typings/babel-parser.d.ts": [
         "./node_modules/@babel/types/lib/index.d.ts",
         "./node_modules/@types/node/util.d.ts"
@@ -3451,6 +3377,19 @@
       "./node_modules/@nuxt/content/types/query-builder.d.ts": [
         "./node_modules/@nuxt/content/types/content.d.ts",
         "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nuxt/image/dist/types.d.ts": [
+        "./node_modules/@nuxt/content/types/index.d.ts",
+        "./node_modules/@nuxt/types/app/vue.d.ts",
+        "./node_modules/@nuxt/types/app/vuex.d.ts",
+        "./node_modules/@nuxt/types/index.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/ipx/dist/index.d.ts",
+        "./node_modules/vue-meta/types/vue.d.ts",
+        "./node_modules/vue-router/types/vue.d.ts",
+        "./node_modules/vue/types/vue.d.ts",
+        "./node_modules/vuex/types/index.d.ts",
+        "./node_modules/vuex/types/vue.d.ts"
       ],
       "./node_modules/@nuxt/telemetry/dist/index.d.ts": [
         "./node_modules/@nuxt/components/dist/index.d.ts",
@@ -4288,6 +4227,10 @@
       "./node_modules/immutable/dist/immutable.d.ts": [
         "./node_modules/@types/node/util.d.ts"
       ],
+      "./node_modules/ipx/dist/index.d.ts": [
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
       "./node_modules/mdast-util-definitions/types/index.d.ts": [
         "./node_modules/@types/mdast/index.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -4707,28 +4650,9 @@
         "./node_modules/vue/types/options.d.ts",
         "./node_modules/vue/types/vue.d.ts",
         "./node_modules/vuex/types/index.d.ts"
-      ],
-      "./pages/batailles/_bataille.vue.ts": [
-        "./node_modules/vue/types/index.d.ts",
-        "./node_modules/vue/types/vue.d.ts"
-      ],
-      "./pages/bibliographie.vue.ts": [
-        "./node_modules/vue/types/index.d.ts",
-        "./node_modules/vue/types/vue.d.ts"
-      ],
-      "./pages/personnages/_personnage.vue.ts": [
-        "./node_modules/vue/types/index.d.ts",
-        "./node_modules/vue/types/vue.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
-      "./components/DropDown.vue.ts",
-      "./components/FooterBar.vue.ts",
-      "./components/HeadLine.vue.ts",
-      "./components/ListeItems.vue.ts",
-      "./components/NavBar.vue.js",
-      "./components/ParagrapheTexte.vue.js",
-      "./components/icons/ArrowDownIcon.vue.js",
       "./node_modules/@babel/parser/typings/babel-parser.d.ts",
       "./node_modules/@babel/types/lib/index.d.ts",
       "./node_modules/@lokidb/loki/types/common/types.d.ts",
@@ -4778,6 +4702,7 @@
       "./node_modules/@nuxt/content/types/parsers/xml/index.d.ts",
       "./node_modules/@nuxt/content/types/parsers/yaml/index.d.ts",
       "./node_modules/@nuxt/content/types/query-builder.d.ts",
+      "./node_modules/@nuxt/image/dist/types.d.ts",
       "./node_modules/@nuxt/telemetry/dist/index.d.ts",
       "./node_modules/@nuxt/types/app/index.d.ts",
       "./node_modules/@nuxt/types/app/vue.d.ts",
@@ -4923,6 +4848,7 @@
       "./node_modules/fast-glob/out/types/index.d.ts",
       "./node_modules/globby/index.d.ts",
       "./node_modules/immutable/dist/immutable.d.ts",
+      "./node_modules/ipx/dist/index.d.ts",
       "./node_modules/mdast-util-definitions/types/index.d.ts",
       "./node_modules/mdast-util-to-hast/types/index.d.ts",
       "./node_modules/p-queue/dist/index.d.ts",
@@ -5021,11 +4947,8 @@
       "./node_modules/vuex/types/logger.d.ts",
       "./node_modules/vuex/types/vue.d.ts",
       "./nuxt.config.js",
-      "./pages/batailles/_bataille.vue.ts",
-      "./pages/bibliographie.vue.ts",
-      "./pages/index.vue.js",
-      "./pages/personnages/_personnage.vue.ts",
-      "./stylelint.config.js"
+      "./stylelint.config.js",
+      "./tsconfig.json"
     ],
     "affectedFilesPendingEmit": [
       [
@@ -5054,6 +4977,10 @@
       ],
       [
         "./components/ListeItems.vue.ts",
+        1
+      ],
+      [
+        "./components/ListePersonnages.vue.ts",
         1
       ],
       [
@@ -5278,6 +5205,10 @@
       ],
       [
         "./node_modules/@nuxt/content/types/query-builder.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@nuxt/image/dist/types.d.ts",
         1
       ],
       [
@@ -5861,6 +5792,10 @@
         1
       ],
       [
+        "./node_modules/ipx/dist/index.d.ts",
+        1
+      ],
+      [
         "./node_modules/mdast-util-definitions/types/index.d.ts",
         1
       ],
@@ -6282,6 +6217,10 @@
       ],
       [
         "./pages/personnages.vue.js",
+        1
+      ],
+      [
+        "./pages/personnages.vue.ts",
         1
       ],
       [

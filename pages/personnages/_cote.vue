@@ -9,12 +9,12 @@
           :key="index"
           class="personnage"
         >
-          <NuxtImg v-show="index % 2 !== 0" :src="personnage.image" />
+          <img v-show="index % 2 !== 0" :src="personnage.image" />
           <div class="text">
             <h2>{{ personnage.nom }}</h2>
             <NuxtContent class="markdown-content" :document="personnage" />
           </div>
-          <NuxtImg v-show="index % 2 === 0" :src="personnage.image" />
+          <img v-show="index % 2 === 0" :src="personnage.image" />
         </li>
       </ul>
     </section>

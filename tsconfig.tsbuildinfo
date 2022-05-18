@@ -217,7 +217,7 @@
         "affectsGlobalScope": true
       },
       "./nuxt.config.js": {
-        "version": "908130228e7df0fa4ee34296fcd74216b1aa21438243805263839932a4c359e0",
+        "version": "2e3d810f0aa579a86d903a7210ac77e424d9ec1a5f773495ba7bba8e823416e9",
         "signature": "689bfa9f8bbc46b3315ba4d3e5145e3f8572d60a81d3e37641e41bde1c93d3c1",
         "affectsGlobalScope": false
       },

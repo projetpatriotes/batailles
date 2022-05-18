@@ -2,9 +2,9 @@
   <section class="footer">
     <footer>
       <div class="credits">
-        Ce site web est un projet inter-disciplinaire de l'École
-        internationale de Montréal, avec collaboration entre les cours
-        d'histoire et de français de secondaire 3 de l'année scolaire 2021-2022.
+        Ce site web est un projet inter-disciplinaire de l'École internationale
+        de Montréal, avec collaboration entre les cours d'histoire et de
+        français de secondaire 3 de l'année scolaire 2021-2022.
       </div>
       <br />
       <div class="copyright">

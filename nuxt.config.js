@@ -1,5 +1,5 @@
 const description =
-  "Ceci est un site web fait par William et Adnan comme un Projet Patriotes, qui est un projet inter-disciplinaire entre les cours d'histoire et de francais.";
+  "Ce site web est un projet inter-disciplinaire de l'École internationale de Montréal, avec collaboration entre les cours d'histoire et de français de secondaire 3 de l'année scolaire 2021-2022.";
 
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
@@ -25,7 +25,7 @@ export default {
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'Projet Patriotes - Batailles',
+        content: 'Projet Patriotes',
       },
       {
         hid: 'og:description',

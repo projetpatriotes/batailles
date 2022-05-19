@@ -3,7 +3,6 @@ name: ci
 on:
   push:
     paths-ignore:
-      - .github/**
       - .gitignore
       - .prettierignore
       - COPYING
@@ -11,7 +10,6 @@ on:
       - README.md
   pull_request:
     paths-ignore:
-      - .github/**
       - .gitignore
       - .prettierignore
       - COPYING

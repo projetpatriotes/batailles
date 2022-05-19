@@ -217,7 +217,7 @@
         "affectsGlobalScope": true
       },
       "./nuxt.config.js": {
-        "version": "2e3d810f0aa579a86d903a7210ac77e424d9ec1a5f773495ba7bba8e823416e9",
+        "version": "d33bc88843f4fa08ce23849a679b4de36cc9aeb0d8d743ccde11988805e3917a",
         "signature": "689bfa9f8bbc46b3315ba4d3e5145e3f8572d60a81d3e37641e41bde1c93d3c1",
         "affectsGlobalScope": false
       },
@@ -302,7 +302,7 @@
         "affectsGlobalScope": false
       },
       "./pages/personnages/_cote.vue.ts": {
-        "version": "5a57143a3387b5112976d98cd06638c3108966a6728e1c93e243b1d396ed85aa",
+        "version": "6561f47769dadc1cf8e450a631683cec4381cd2e0dd993fc9e636177e4b8b5d7",
         "signature": "e761d4e9d1739689ed6c67cdc93fb6de46df5649a71fa06e0a58fc0e4c8c86d8",
         "affectsGlobalScope": false
       },

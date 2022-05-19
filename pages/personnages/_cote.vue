@@ -9,12 +9,16 @@
           :key="index"
           class="personnage"
         >
-          <img v-show="index % 2 !== 0" :src="personnage.image" />
           <div class="text">
             <h2>{{ personnage.nom }}</h2>
             <NuxtContent class="markdown-content" :document="personnage" />
           </div>
-          <img v-show="index % 2 === 0" :src="personnage.image" />
+          <img
+            :style="{
+              float: index % 2 === 0 ? 'right' : 'left',
+            }"
+            :src="personnage.image"
+          />
         </li>
       </ul>
     </section>
@@ -52,7 +56,7 @@ export default Vue.extend({
     flex-flow: column nowrap;
     align-items: cen;
   }
-  display: flex;
+  display: inline-flex;
   flex-flow: row nowrap;
   padding: 2rem;
   margin-bottom: 1.5rem;
@@ -66,10 +70,8 @@ export default Vue.extend({
     overflow: hidden;
   }
   img {
-    margin-left: auto;
-    object-fit: contain;
-    max-width: 100%;
-    max-height: 100%;
+    width: 15em;
+    border-radius: 1rem;
   }
 }
 </style>

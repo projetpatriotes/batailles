@@ -69,6 +69,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           rm -rf ./node_modules
           rm -rf ./dist
+          rm -rf tsconfig.tsbuildinfo
 
       - name: Commit files ✔
         run: |

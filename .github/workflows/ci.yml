@@ -57,20 +57,21 @@ jobs:
       - name: Compile website 🏗️
         run: yarn generate
 
+      - name: Deploy website 🚀
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+
       - name: Git Config ⚙
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           rm -rf ./node_modules
+          rm -rf ./dist
 
       - name: Commit files ✔
         run: |
           git add *
           git commit -m "🎨 lint code"
           git push origin master
-
-      - name: Deploy website 🚀
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist

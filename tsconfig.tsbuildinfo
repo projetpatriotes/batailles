@@ -217,8 +217,8 @@
         "affectsGlobalScope": true
       },
       "./nuxt.config.js": {
-        "version": "d33bc88843f4fa08ce23849a679b4de36cc9aeb0d8d743ccde11988805e3917a",
-        "signature": "689bfa9f8bbc46b3315ba4d3e5145e3f8572d60a81d3e37641e41bde1c93d3c1",
+        "version": "edb732c584156fb495ca49cc51cd2f77e811ed60a7bdb76059594e8298da34a5",
+        "signature": "ed8405895e69dd64bd1a1359c58176e0e324890abccdb8d126cffd57756ff85b",
         "affectsGlobalScope": false
       },
       "./stylelint.config.js": {
@@ -1557,7 +1557,7 @@
       ],
       "inlineSourceMap": false,
       "declarationMap": false,
-      "pathsBasePath": "C:/Users/botato/Desktop/School/batailles",
+      "pathsBasePath": "/home/runner/work/projetpatriotes.github.io/projetpatriotes.github.io",
       "configFilePath": "./tsconfig.json"
     },
     "referencedMap": {

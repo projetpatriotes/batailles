@@ -26,17 +26,17 @@ export default Vue.extend({
   props: {
     titre: {
       type: String,
-      default: 'Projet Patriotes',
+      default: 'Projet Patriotes'
     },
     image: {
       type: String,
-      default: '/img/arriere-plans/papineau.png',
+      default: '/img/arriere-plans/papineau.png'
     },
     noarrow: {
       type: Boolean,
-      default: false,
-    },
-  },
+      default: false
+    }
+  }
 });
 </script>
 

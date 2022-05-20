@@ -17,7 +17,7 @@ export default Vue.extend({
     const page = await $content('batailles', params.bataille).fetch();
 
     return { page };
-  },
+  }
 });
 </script>
 

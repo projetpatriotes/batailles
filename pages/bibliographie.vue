@@ -17,7 +17,7 @@ export default Vue.extend({
   async asyncData({ $content }) {
     const page = await $content('bibliographie').fetch();
     return { page };
-  },
+  }
 });
 </script>
 

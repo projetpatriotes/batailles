@@ -22,8 +22,8 @@ import Vue from 'vue';
 export default Vue.extend({
   data: () => ({
     licenseUrl:
-      'https://github.com/projetpatriotes/projetpatriotes.github.io/raw/master/LICENSE.md',
-  }),
+      'https://github.com/projetpatriotes/projetpatriotes.github.io/raw/master/LICENSE.md'
+  })
 });
 </script>
 

@@ -13,7 +13,7 @@ export default {
     title: 'Projet Patriotes - Batailles',
     htmlAttrs: {
       lang: 'fr_CA',
-      prefix: 'og: https://ogp.me/ns#',
+      prefix: 'og: https://ogp.me/ns#'
     },
     meta: [
       { charset: 'utf-8' },
@@ -25,51 +25,51 @@ export default {
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'Projet Patriotes',
+        content: 'Projet Patriotes'
       },
       {
         hid: 'og:description',
         property: 'og:description',
-        content: description,
+        content: description
       },
       { hid: 'og:locale', property: 'og:locale', content: 'fr_CA' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       {
         hid: 'og:image',
         property: 'og:image',
-        content: '/img/arriere-plans/papineau.png',
+        content: '/img/arriere-plans/papineau.png'
       },
       {
         hid: 'og:image:alt',
         property: 'og:image:alt',
-        content: 'Le discours de Louis-Joseph Papineau.',
+        content: 'Le discours de Louis-Joseph Papineau.'
       },
       // Twitter
       {
         hid: 'twitter:image',
         property: 'twitter:image',
-        content: '/img/arriere-plans/papineau.png',
+        content: '/img/arriere-plans/papineau.png'
       },
       {
         hid: 'twitter:card',
         property: 'twitter:card',
-        content: 'summary_large_image',
-      },
+        content: 'summary_large_image'
+      }
     ],
     link: [
       { rel: 'icon', type: 'image/png', href: '/favicon.png' },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Open+Sans&display=swap',
-      },
-    ],
+        href: 'https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'
+      }
+    ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '~/static/scss/_basic.scss',
     '~/static/scss/_headings.scss',
-    '~/static/scss/_scrollbar.scss',
+    '~/static/scss/_scrollbar.scss'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -85,7 +85,7 @@ export default {
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
     // https://github.com/nuxt-community/style-resources-module
-    '@nuxtjs/style-resources',
+    '@nuxtjs/style-resources'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -97,9 +97,9 @@ export default {
       {
         duration: 500,
         offset: -75,
-        easing: 'ease-in-out',
-      },
-    ],
+        easing: 'ease-in-out'
+      }
+    ]
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
@@ -109,6 +109,6 @@ export default {
   build: {},
 
   styleResources: {
-    scss: ['~/static/scss/_variables.scss'],
-  },
+    scss: ['~/static/scss/_variables.scss']
+  }
 };

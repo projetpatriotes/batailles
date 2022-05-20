@@ -73,6 +73,8 @@ jobs:
 
       - name: Commit files ✔
         run: |
+          git fetch --all
+          git pull
           git add *
           git commit -m "🎨 lint code"
           git push origin master

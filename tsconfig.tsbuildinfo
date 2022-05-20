@@ -217,12 +217,12 @@
         "affectsGlobalScope": true
       },
       "./nuxt.config.js": {
-        "version": "edb732c584156fb495ca49cc51cd2f77e811ed60a7bdb76059594e8298da34a5",
-        "signature": "ed8405895e69dd64bd1a1359c58176e0e324890abccdb8d126cffd57756ff85b",
+        "version": "2ab566d40ee5d764a1039a50cbefda67014d76e3fe93eb610a6c1458e097840f",
+        "signature": "689bfa9f8bbc46b3315ba4d3e5145e3f8572d60a81d3e37641e41bde1c93d3c1",
         "affectsGlobalScope": false
       },
       "./stylelint.config.js": {
-        "version": "2f3403712c623c3bc39c9d2537ea44a6cb9c12fab41bac7cf71ae0c2337fac45",
+        "version": "c6640a6c0f685d726fca346e713f927c9c93407b3e723c2c7cf76974c855e61a",
         "signature": "ef52f094c015dde960c4ed8ae6d244b6fb45109e60c35897edc14b2844e062c7",
         "affectsGlobalScope": true
       },
@@ -257,12 +257,12 @@
         "affectsGlobalScope": false
       },
       "./components/DropDown.vue.ts": {
-        "version": "70d7ead2cf2fda1028b1759cea079c3e57bff5fdea91ba1d0b3dabb660bbf9d8",
+        "version": "4dd96962902edff2a0e9773856f88e73a595588654a38cdcecb7a1dec0bfd4a3",
         "signature": "9610508d066b46effe7aa1e0ca4d0f0aad530da258ac992d3d5f7a032638bd2f",
         "affectsGlobalScope": false
       },
       "./components/FooterBar.vue.ts": {
-        "version": "7138f143ef5db0fdb425e9b18e67cc8bdf2a49ff88f83d819a45ab8740a64588",
+        "version": "eaf9a638c62fefb8cecb3aea144d05cb063d2cfa498aee34882cf90bcb2b4c7d",
         "signature": "c97a324454694ff76d7406f75193ec5e43c35da4cf7eee74ea9d1358337cd149",
         "affectsGlobalScope": false
       },
@@ -272,7 +272,7 @@
         "affectsGlobalScope": false
       },
       "./components/HeadLine.vue.ts": {
-        "version": "c889c1bdf6cd3c87554eaac91fa5eb722f4fa2a007355ad2a9c9d85611e56eb5",
+        "version": "20f4b5c250dd910245fa7f24337baccea40e1021dc38ddfa8dddc88eb28adb95",
         "signature": "b9afe8e3b5ee6b0736d9a2b6e62afb694a2a8ea4faf8948a7fadf00a9eeff2b4",
         "affectsGlobalScope": false
       },
@@ -287,7 +287,7 @@
         "affectsGlobalScope": false
       },
       "./pages/bibliographie.vue.ts": {
-        "version": "f2d080d2101260633356c92aec2a1302266f865c57db837f146f917e5a7b3f2c",
+        "version": "96af87e9126fdfe38f4800ed7facaae3396fa3b5479e5d067bd7917b4ecbe9c1",
         "signature": "e761d4e9d1739689ed6c67cdc93fb6de46df5649a71fa06e0a58fc0e4c8c86d8",
         "affectsGlobalScope": false
       },
@@ -297,7 +297,7 @@
         "affectsGlobalScope": false
       },
       "./pages/batailles/_bataille.vue.ts": {
-        "version": "06d7521106cba4a0648580f07357ebd7ef4f5781a818e6222aaab6a6af0c5c00",
+        "version": "f619cc81239e7c716db28ecc70cc9fa2686dfae093d2df31d8570eaf956feee0",
         "signature": "e761d4e9d1739689ed6c67cdc93fb6de46df5649a71fa06e0a58fc0e4c8c86d8",
         "affectsGlobalScope": false
       },

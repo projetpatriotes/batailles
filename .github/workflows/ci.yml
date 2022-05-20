@@ -69,10 +69,11 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           rm -rf ./node_modules
           rm -rf ./dist
-          rm -rf tsconfig.tsbuildinfo
 
       - name: Commit files ✔
         run: |
-          git add *
+          git fetch --all
+          git pull
+          git add -A --ignore-errors
           git commit -m "🎨 lint code"
           git push origin master

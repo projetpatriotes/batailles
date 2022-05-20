@@ -12,7 +12,7 @@
             titre="Liste des personnages"
             :items="[
               { title: 'Anglais', path: '/personnages/anglais' },
-              { title: 'Français', path: '/personnages/francais' },
+              { title: 'Français', path: '/personnages/francais' }
             ]"
           />
         </li>
@@ -21,15 +21,15 @@
         </li>
       </ul>
       <Slide right>
-        <details>
-          <summary>Liste des batailles</summary>
-          <ul>
-            <li>
-              <NuxtLink to="https://example.com">example.com</NuxtLink>
-            </li>
-          </ul>
-        </details>
-        <NuxtLink to="/">Liste des batailles</NuxtLink>
+        <NuxtLink to="/">Accueil</NuxtLink>
+        <DropDown titre="Liste des batailles" :items="listeDesBatailles" />
+        <DropDown
+          titre="Liste des personnages"
+          :items="[
+            { title: 'Anglais', path: '/personnages/anglais' },
+            { title: 'Français', path: '/personnages/francais' }
+          ]"
+        />
         <NuxtLink to="/bibliographie">Bibliographie</NuxtLink>
       </Slide>
     </nav>
@@ -50,7 +50,7 @@ export default Vue.extend({
     this.listeDesBatailles = await this.$content('batailles')
       .only(['title', 'path'])
       .fetch();
-  },
+  }
 });
 </script>
 

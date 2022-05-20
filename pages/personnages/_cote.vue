@@ -1,7 +1,7 @@
 <template>
   <div>
     <NavBar />
-    <HeadLine :titre="'Personnages ' + cote" />
+    <HeadLine :titre="'Personnages ' + cote" :image="images[cote]" />
     <section id="premiereSection" class="liste">
       <ul>
         <li
@@ -15,7 +15,7 @@
           </div>
           <img
             :style="{
-              float: index % 2 === 0 ? 'right' : 'left',
+              float: index % 2 === 0 ? 'right' : 'left'
             }"
             :src="personnage.image"
           />
@@ -36,8 +36,15 @@ export default Vue.extend({
     if (params.cote === 'francais') {
       cote = 'français';
     }
-    return { personnages, cote };
-  },
+    return {
+      personnages,
+      cote,
+      images: {
+        anglais: '/img/arriere-plans/capitulation-montreal.jpg',
+        français: '/img/arriere-plans/papineau.png'
+      }
+    };
+  }
 });
 </script>
 

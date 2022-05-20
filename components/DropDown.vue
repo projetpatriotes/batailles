@@ -20,18 +20,18 @@ export default Vue.extend({
   props: {
     titre: {
       type: String,
-      default: () => 'Caca',
+      default: () => 'Caca'
     },
     items: {
       type: Array,
-      required: true,
-    },
+      required: true
+    }
   },
 
   // thank you https://laracasts.com/discuss/channels/vue/close-dropdown-when-click-another-element#best-reply-401904
   // you have my regards, kind stranger
   data: () => ({
-    dropdownOpen: false,
+    dropdownOpen: false
   }),
 
   created() {
@@ -48,8 +48,8 @@ export default Vue.extend({
       if (!this.$el.contains(elem)) {
         this.dropdownOpen = false;
       }
-    },
-  },
+    }
+  }
 });
 </script>
 
@@ -77,7 +77,7 @@ export default Vue.extend({
       visibility: hidden;
     }
     li {
-      padding: 1rem 1.5rem;
+      padding: 1rem;
       a {
         &:hover,
         &:active,

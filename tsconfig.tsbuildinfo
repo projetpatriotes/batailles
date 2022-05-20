@@ -257,7 +257,7 @@
         "affectsGlobalScope": false
       },
       "./components/DropDown.vue.ts": {
-        "version": "6d84a508b42029ad45c04ead09c20e58b76e5ffacddc4dd3d8df240589cd13bb",
+        "version": "70d7ead2cf2fda1028b1759cea079c3e57bff5fdea91ba1d0b3dabb660bbf9d8",
         "signature": "9610508d066b46effe7aa1e0ca4d0f0aad530da258ac992d3d5f7a032638bd2f",
         "affectsGlobalScope": false
       },
@@ -277,7 +277,7 @@
         "affectsGlobalScope": false
       },
       "./components/NavBar.vue.js": {
-        "version": "d0163a3795071df467a1b6ae7d682638890c43a29f49256b407cc33e42d098e7",
+        "version": "436d01052592c50614fcbb1d6f85517f44a3684460c952dff3dd1abfa3e22efc",
         "signature": "a21aba74eb8c88889ad62038008479597dce24aa8e41bcac99ab0113b3d25482",
         "affectsGlobalScope": false
       },
@@ -302,7 +302,7 @@
         "affectsGlobalScope": false
       },
       "./pages/personnages/_cote.vue.ts": {
-        "version": "6561f47769dadc1cf8e450a631683cec4381cd2e0dd993fc9e636177e4b8b5d7",
+        "version": "59a2647cdb033a74cbef595cf178f17c5207967b9bd9e6718714acf6468c7bc7",
         "signature": "e761d4e9d1739689ed6c67cdc93fb6de46df5649a71fa06e0a58fc0e4c8c86d8",
         "affectsGlobalScope": false
       },
@@ -1557,7 +1557,7 @@
       ],
       "inlineSourceMap": false,
       "declarationMap": false,
-      "pathsBasePath": "/home/runner/work/projetpatriotes.github.io/projetpatriotes.github.io",
+      "pathsBasePath": "C:/Users/botato/Desktop/School/batailles",
       "configFilePath": "./tsconfig.json"
     },
     "referencedMap": {

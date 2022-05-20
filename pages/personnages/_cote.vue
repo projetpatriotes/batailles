@@ -18,6 +18,7 @@
               float: index % 2 === 0 ? 'right' : 'left'
             }"
             :src="personnage.image"
+            :alt="personnage.alt"
           />
         </li>
       </ul>

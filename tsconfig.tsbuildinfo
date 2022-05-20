@@ -217,13 +217,13 @@
         "affectsGlobalScope": true
       },
       "./nuxt.config.js": {
-        "version": "2ab566d40ee5d764a1039a50cbefda67014d76e3fe93eb610a6c1458e097840f",
-        "signature": "689bfa9f8bbc46b3315ba4d3e5145e3f8572d60a81d3e37641e41bde1c93d3c1",
+        "version": "8890402375c0876b4be5d3e78392b70aca1e2eac255f752c7fe7ffed7dcaeb14",
+        "signature": "ed8405895e69dd64bd1a1359c58176e0e324890abccdb8d126cffd57756ff85b",
         "affectsGlobalScope": false
       },
       "./stylelint.config.js": {
-        "version": "c6640a6c0f685d726fca346e713f927c9c93407b3e723c2c7cf76974c855e61a",
-        "signature": "ef52f094c015dde960c4ed8ae6d244b6fb45109e60c35897edc14b2844e062c7",
+        "version": "5f7d9df4e03fbfdbda511fedf5ec2a740d185462ae8a2231b3486711444353fa",
+        "signature": "d0976ff4c2607695ea63d2245568e1d98dd5aff7d1e25b4f2093a8d3acae9c39",
         "affectsGlobalScope": true
       },
       "./node_modules/vue/types/vnode.d.ts": {
@@ -262,8 +262,8 @@
         "affectsGlobalScope": false
       },
       "./components/FooterBar.vue.ts": {
-        "version": "eaf9a638c62fefb8cecb3aea144d05cb063d2cfa498aee34882cf90bcb2b4c7d",
-        "signature": "c97a324454694ff76d7406f75193ec5e43c35da4cf7eee74ea9d1358337cd149",
+        "version": "bf315deaa89d0df822bd2ab73d0b40f11878257d76ae08c659ed7750a9548550",
+        "signature": "95d98b32d3f9a9861950a95571df9b34f3144b26b8d5fb9291f83fef8b86f75e",
         "affectsGlobalScope": false
       },
       "./components/icons/ArrowDownIcon.vue.js": {
@@ -272,8 +272,8 @@
         "affectsGlobalScope": false
       },
       "./components/HeadLine.vue.ts": {
-        "version": "20f4b5c250dd910245fa7f24337baccea40e1021dc38ddfa8dddc88eb28adb95",
-        "signature": "b9afe8e3b5ee6b0736d9a2b6e62afb694a2a8ea4faf8948a7fadf00a9eeff2b4",
+        "version": "94795f2a9be86720a0524b88906b36ec8bf803a28ec5b248272129d4456610dc",
+        "signature": "fdf6eff0ff1cddbb721e1d57c4a3e0f68eb5c6c0595c4f42e4cbe227c95f385c",
         "affectsGlobalScope": false
       },
       "./components/NavBar.vue.js": {
@@ -287,8 +287,8 @@
         "affectsGlobalScope": false
       },
       "./pages/bibliographie.vue.ts": {
-        "version": "96af87e9126fdfe38f4800ed7facaae3396fa3b5479e5d067bd7917b4ecbe9c1",
-        "signature": "e761d4e9d1739689ed6c67cdc93fb6de46df5649a71fa06e0a58fc0e4c8c86d8",
+        "version": "c38f8fec1a13da0c38627b95cc53e392c01a7996d146261b71bfc9b35fbea6f5",
+        "signature": "839de817db51952a2a9db64b310d2272d38af4df72a0bfa1bb5155167c4f478b",
         "affectsGlobalScope": false
       },
       "./pages/index.vue.js": {
@@ -297,13 +297,13 @@
         "affectsGlobalScope": false
       },
       "./pages/batailles/_bataille.vue.ts": {
-        "version": "f619cc81239e7c716db28ecc70cc9fa2686dfae093d2df31d8570eaf956feee0",
-        "signature": "e761d4e9d1739689ed6c67cdc93fb6de46df5649a71fa06e0a58fc0e4c8c86d8",
+        "version": "3d0e9cd92a288d0678a1516d3be83af57e828d93c011fff1bc5af7b01fa54a23",
+        "signature": "839de817db51952a2a9db64b310d2272d38af4df72a0bfa1bb5155167c4f478b",
         "affectsGlobalScope": false
       },
       "./pages/personnages/_cote.vue.ts": {
-        "version": "83c2786e66291024faee9a22bcdfaac8ee2d63010435a775e08d49d845d62e0f",
-        "signature": "e761d4e9d1739689ed6c67cdc93fb6de46df5649a71fa06e0a58fc0e4c8c86d8",
+        "version": "9855cb0d8503dcc6f752d2ee496420f87a11c9ad390ffceb973c1e4cef02557b",
+        "signature": "839de817db51952a2a9db64b310d2272d38af4df72a0bfa1bb5155167c4f478b",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/node/assert.d.ts": {
@@ -1557,7 +1557,7 @@
       ],
       "inlineSourceMap": false,
       "declarationMap": false,
-      "pathsBasePath": "C:/Users/botato/Desktop/School/batailles",
+      "pathsBasePath": "/home/runner/work/projetpatriotes.github.io/projetpatriotes.github.io",
       "configFilePath": "./tsconfig.json"
     },
     "referencedMap": {

@@ -38,6 +38,7 @@
 
 <script>
 // @ts-nocheck
+
 import Vue from 'vue';
 import { Slide } from 'vue-burger-menu';
 

@@ -277,7 +277,7 @@
         "affectsGlobalScope": false
       },
       "./components/NavBar.vue.js": {
-        "version": "436d01052592c50614fcbb1d6f85517f44a3684460c952dff3dd1abfa3e22efc",
+        "version": "f72d2449d4273c516b60f5ebcaa43a8c9a11285bbe4e21018dd60dfbaaf30b6c",
         "signature": "a21aba74eb8c88889ad62038008479597dce24aa8e41bcac99ab0113b3d25482",
         "affectsGlobalScope": false
       },

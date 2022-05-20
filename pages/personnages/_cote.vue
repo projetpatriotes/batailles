@@ -80,6 +80,21 @@ export default Vue.extend({
   img {
     width: 15em;
     border-radius: 1rem;
+    &:hover {
+      border-radius: 1rem 1rem 0 0;
+    }
+    &:hover::after {
+      content: attr(alt string, "Aucune description de plus sur ce portrait.")
+      position: absolute;
+      z-index: 1;
+      left: 0;
+      top: 2rem;
+      width: 15rem;
+      border-radius: 0 0 1rem 1rem;
+      font-size: inherit;
+      color: $selection-foreground;
+      background-color: $selection-background;
+    }
   }
 }
 </style>

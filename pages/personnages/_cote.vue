@@ -84,7 +84,7 @@ export default Vue.extend({
       border-radius: 1rem 1rem 0 0;
     }
     &:hover::after {
-      content: attr(alt string, "Aucune description de plus sur ce portrait.");
+      content: attr(alt string, 'Aucune description de plus sur ce portrait.');
       position: absolute;
       z-index: 1;
       left: 0;

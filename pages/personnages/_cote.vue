@@ -7,6 +7,9 @@
         <li
           v-for="(personnage, index) in personnages"
           :key="index"
+          :style="{
+            'flex-flow': index % 2 === 0 ? 'row nowrap' : 'row-reverse nowrap'
+          }"
           class="personnage"
         >
           <div class="text">
@@ -14,11 +17,9 @@
             <NuxtContent class="markdown-content" :document="personnage" />
           </div>
           <img
-            :style="{
-              float: index % 2 === 0 ? 'right' : 'left'
-            }"
             :src="personnage.image"
             :alt="personnage.alt"
+            :style="getMargin(index)"
           />
         </li>
       </ul>
@@ -45,6 +46,13 @@ export default Vue.extend({
         français: '/img/arriere-plans/papineau.png'
       }
     };
+  },
+  methods: {
+    getMargin(index: number) {
+      return Object.fromEntries([
+        [index % 2 === 0 ? 'margin-left' : 'margin-right', 'auto']
+      ]);
+    }
   }
 });
 </script>
@@ -65,7 +73,6 @@ export default Vue.extend({
     align-items: cen;
   }
   display: inline-flex;
-  flex-flow: row nowrap;
   padding: 2rem;
   margin-bottom: 1.5rem;
   border-radius: 1rem;
@@ -73,18 +80,22 @@ export default Vue.extend({
   &:last-of-type {
     margin-bottom: 0;
   }
+
+  /* nvm its fine, he's not that stretched anyway and I'm done with his text*/
   .text {
     padding: 0 1em 1em 1em;
     overflow: hidden;
   }
   img {
     width: 15em;
+    height: auto;
     border-radius: 1rem;
+    transition: 0.2s;
     &:hover {
       border-radius: 1rem 1rem 0 0;
     }
     &:hover::after {
-      content: attr(alt string, 'Aucune description de plus sur ce portrait.');
+      content: attr(alt, 'Aucune description de plus sur ce portrait.');
       position: absolute;
       z-index: 1;
       left: 0;

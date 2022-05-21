@@ -12,6 +12,9 @@
   <a href="https://github.com/projetpatriotes/batailles/actions/workflows/ci.yml">
     <img src="https://github.com/projetpatriotes/batailles/actions/workflows/ci.yml/badge.svg" alt="ci">
   </a>
+  <a href="https://app.netlify.com/sites/projetpatriotes/deploys">
+    <img src="https://api.netlify.com/api/v1/badges/c469e9fc-a79b-4947-96d1-e9609d22fdad/deploy-status" alt="Netlify Status" >
+  </a>
   <a href="https://gitmoji.dev">
     <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square" alt="Gitmoji">
   </a>

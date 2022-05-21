@@ -110,5 +110,9 @@ export default {
 
   styleResources: {
     scss: ['~/static/scss/_variables.scss']
+  },
+
+  generate: {
+    fallback: true
   }
 };

@@ -302,13 +302,8 @@
         "affectsGlobalScope": false
       },
       "./pages/personnages/_cote.vue.ts": {
-<<<<<<< HEAD
         "version": "0857a84be203977c3c1017d4a1c179276347dc6239f21fa4f317e06ee116889e",
         "signature": "224b0255c39bd1eed779708c67964e74ac6481c65d08f3ed5da4f6a4407d8233",
-=======
-        "version": "9855cb0d8503dcc6f752d2ee496420f87a11c9ad390ffceb973c1e4cef02557b",
-        "signature": "839de817db51952a2a9db64b310d2272d38af4df72a0bfa1bb5155167c4f478b",
->>>>>>> 864d7decde12c30516245bc8569ad2f3f888e2c3
         "affectsGlobalScope": false
       },
       "./node_modules/@types/node/assert.d.ts": {

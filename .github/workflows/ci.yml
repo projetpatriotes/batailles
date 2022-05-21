@@ -54,6 +54,15 @@ jobs:
       - name: Run linter 🧹
         run: yarn lintfix
 
+      - name: Compile website 🏗️
+        run: yarn generate
+
+      - name: Deploy website 🚀
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+
       - name: Git Config ⚙
         run: |
           git config user.name "github-actions[bot]"

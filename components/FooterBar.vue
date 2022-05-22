@@ -16,15 +16,13 @@
   </section>
 </template>
 
-<script lang="ts">
-import Vue from 'vue';
-
-export default Vue.extend({
+<script>
+export default {
   data: () => ({
     licenseUrl:
       'https://github.com/projetpatriotes/projetpatriotes.github.io/raw/master/LICENSE.md'
   })
-});
+};
 </script>
 
 <style lang="scss">

@@ -17,7 +17,7 @@
   </section>
 </template>
 
-<script lang="ts">
+<script>
 import Vue from 'vue';
 import ArrowDownIcon from '~/components/icons/ArrowDownIcon.vue';
 
@@ -29,8 +29,7 @@ export default Vue.extend({
       default: 'Projet Patriotes'
     },
     image: {
-      type: String,
-      default: '/img/arriere-plans/papineau.png'
+      default: require('~/assets/img/arriere-plans/papineau.png')
     },
     noarrow: {
       type: Boolean,
@@ -78,7 +77,7 @@ export default Vue.extend({
   width: 100%;
   height: calc(100vh - 5rem);
   min-height: 350px;
-  background: url('/img/arriere-plans/papineau.png') fixed center;
+  background: url('/assets/img/arriere-plans/papineau.png') fixed center;
   background-size: cover;
   display: flex;
   flex-direction: column;

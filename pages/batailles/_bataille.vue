@@ -1,7 +1,7 @@
 <template>
   <div>
     <NavBar />
-    <HeadLine :titre="page.description" :image="page.image" />
+    <HeadLine :titre="page.description" :image="image" />
     <ParagrapheTexte>
       <NuxtContent class="markdown-content" :document="page" />
     </ParagrapheTexte>
@@ -9,16 +9,15 @@
   </div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue';
-
-export default Vue.extend({
+<script>
+export default {
   async asyncData({ $content, params }) {
     const page = await $content('batailles', params.bataille).fetch();
+    const image = require(page.image);
 
-    return { page };
+    return { page, image };
   }
-});
+};
 </script>
 
 <style lang="scss">

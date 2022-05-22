@@ -1,7 +1,7 @@
 ---
 title: St-Charles
 description: Bataille de Saint-Charles
-image: /img/arriere-plans/st-charles.jpg
+image: ~/assets/img/arriere-plans/st-charles.png
 ---
 
 aaaaaaaaaaaaaaaaaaaa

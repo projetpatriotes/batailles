@@ -1,6 +1,6 @@
 ---
 nom: Louis-Joseph Papineau (1786-1871)
-image: /img/portraits/papineau.jpg
+image: ~/assets/img/portraits/papineau.png
 alt: Portrait de Louis-Joseph Papineau en 1871
 ---
 

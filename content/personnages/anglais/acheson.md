@@ -1,6 +1,6 @@
 ---
 nom: Archibald Acheson (1776-1849)
-image: /img/portraits/acheson.jpg
+image: ~/assets/img/portraits/acheson.png
 alt: Portrait du 2e Comte de Gosford, Archibald Acheson.
 ---
 

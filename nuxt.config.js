@@ -19,7 +19,6 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: description },
-      { name: 'format-detection', content: 'telephone=no' },
       { name: 'theme-color', content: '#e0a96d' },
       // Open Graph protocol: https://ogp.me
       {
@@ -37,7 +36,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: '/img/arriere-plans/papineau.png'
+        content: '~/assets/img/arriere-plans/papineau.png'
       },
       {
         hid: 'og:image:alt',
@@ -48,7 +47,7 @@ export default {
       {
         hid: 'twitter:image',
         property: 'twitter:image',
-        content: '/img/arriere-plans/papineau.png'
+        content: '~/assets/img/arriere-plans/papineau.png'
       },
       {
         hid: 'twitter:card',
@@ -67,9 +66,9 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '~/static/scss/_basic.scss',
-    '~/static/scss/_headings.scss',
-    '~/static/scss/_scrollbar.scss'
+    '~/assets/scss/_basic.scss',
+    '~/assets/scss/_headings.scss',
+    '~/assets/scss/_scrollbar.scss'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -80,8 +79,6 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/typescript
-    '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
     // https://github.com/nuxt-community/style-resources-module
@@ -109,10 +106,6 @@ export default {
   build: {},
 
   styleResources: {
-    scss: ['~/static/scss/_variables.scss']
-  },
-
-  generate: {
-    fallback: true
+    scss: ['~/assets/scss/_variables.scss']
   }
 };

@@ -1,17 +1,10 @@
-<!-- eslint-disable vue/no-mutating-props -->
-
 <template>
   <div class="dropdown-menu">
     <button @click="dropdownOpen = !dropdownOpen">
       {{ titre }}
     </button>
     <ul v-show="dropdownOpen">
-      <li
-        v-for="(item, index) in items.sort((a, b) =>
-          a.title.localeCompare(b.title)
-        )"
-        :key="index"
-      >
+      <li v-for="(item, index) in items" :key="index">
         <NuxtLink :to="item.path">
           {{ item.title }}
         </NuxtLink>
@@ -20,10 +13,8 @@
   </div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue';
-
-export default Vue.extend({
+<script>
+export default {
   props: {
     titre: {
       type: String,
@@ -50,14 +41,13 @@ export default Vue.extend({
   },
 
   methods: {
-    close(event: MouseEvent) {
-      const elem = event.target as HTMLElement;
-      if (!this.$el.contains(elem)) {
+    close(event) {
+      if (!this.$el.contains(event.target)) {
         this.dropdownOpen = false;
       }
     }
   }
-});
+};
 </script>
 
 <style lang="scss">

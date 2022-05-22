@@ -9,16 +9,13 @@
   </div>
 </template>
 
-<script lang="ts">
-// @ts-nocheck
-import Vue from 'vue';
-
-export default Vue.extend({
+<script>
+export default {
   async asyncData({ $content }) {
     const page = await $content('bibliographie').fetch();
     return { page };
   }
-});
+};
 </script>
 
 <style lang="scss">

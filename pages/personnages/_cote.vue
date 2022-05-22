@@ -28,10 +28,8 @@
   </div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue';
-
-export default Vue.extend({
+<script>
+export default {
   async asyncData({ $content, params }) {
     const personnages = await $content('personnages', params.cote).fetch();
     let cote = params.cote;
@@ -42,19 +40,19 @@ export default Vue.extend({
       personnages,
       cote,
       images: {
-        anglais: '/img/arriere-plans/capitulation-montreal.jpg',
-        français: '/img/arriere-plans/papineau.png'
+        anglais: require('~/assets/img/arriere-plans/capitulation-montreal.png'),
+        français: require('~/assets/img/arriere-plans/papineau.png')
       }
     };
   },
   methods: {
-    getMargin(index: number) {
+    getMargin(index) {
       return Object.fromEntries([
         [index % 2 === 0 ? 'margin-left' : 'margin-right', 'auto']
       ]);
     }
   }
-});
+};
 </script>
 
 <style lang="scss">

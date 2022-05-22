@@ -1,27 +1,29 @@
 <template>
-  <div class="nav-wrapper">
-    <nav class="navbar">
-      <span>Projet Patriotes</span>
-      <ul class="nav">
-        <li class="nav-item"><NuxtLink to="/">Accueil</NuxtLink></li>
-        <li class="nav-item">
-          <DropDown titre="Liste des batailles" :items="listeDesBatailles" />
-        </li>
-        <li class="nav-item">
-          <DropDown
-            titre="Liste des personnages"
-            :items="[
-              { title: 'Anglais', path: '/personnages/anglais' },
-              { title: 'Français', path: '/personnages/francais' }
-            ]"
-          />
-        </li>
-        <li class="nav-item">
-          <NuxtLink to="/bibliographie">Bibliographie</NuxtLink>
-        </li>
-      </ul>
-    </nav>
-  </div>
+  <nav class="nav">
+    <div class="logo">
+      <span class="green">Proje</span>
+      <span class="white">t Patr</span>
+      <span class="red">iotes</span>
+    </div>
+    <ul class="nav-items">
+      <li class="nav-item"><NuxtLink to="/">Accueil</NuxtLink></li>
+      <li class="nav-item">
+        <DropDown titre="Liste des batailles" :items="listeDesBatailles" />
+      </li>
+      <li class="nav-item">
+        <DropDown
+          titre="Liste des personnages"
+          :items="[
+            { title: 'Anglais', path: '/personnages/anglais' },
+            { title: 'Français', path: '/personnages/francais' }
+          ]"
+        />
+      </li>
+      <li class="nav-item">
+        <NuxtLink to="/bibliographie">Bibliographie</NuxtLink>
+      </li>
+    </ul>
+  </nav>
 </template>
 
 <script>
@@ -42,27 +44,36 @@ export default Vue.extend({
 
 <!-- ok, so you dumbass forgot that it was the nav wrapper that needed the z-index and not the nav bar -->
 <style lang="scss">
-.nav-wrapper {
+.nav {
   z-index: 1;
   width: 100%;
   position: -webkit-sticky; // Safari
   position: sticky;
   top: 0;
   background-color: $second-background;
-}
-
-.navbar {
   display: flex;
   align-items: center;
   flex-direction: row;
   height: 5rem;
   color: $text;
-  > span {
+  .logo {
     color: $selection-background;
     padding: 2rem;
     font-size: 1.2rem;
+    span {
+      margin-left: -0.25rem;
+    }
+    .green {
+      color: #368b48;
+    }
+    .white {
+      color: #ffffff;
+    }
+    .red {
+      color: #c30026;
+    }
   }
-  ul.nav {
+  .nav-items {
     display: flex;
     list-style: none;
     flex-direction: row;

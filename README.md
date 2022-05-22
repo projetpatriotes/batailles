@@ -13,6 +13,6 @@
     <img src="https://github.com/projetpatriotes/batailles/actions/workflows/ci.yml/badge.svg" alt="ci">
   </a>
   <a href="https://gitmoji.dev">
-    <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square" alt="Gitmoji">
+    <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg" alt="Gitmoji">
   </a>
 </p>

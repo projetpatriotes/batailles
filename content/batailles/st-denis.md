@@ -1,7 +1,7 @@
 ---
 title: St-Denis
 description: Bataille de Saint-Denis
-image: ~/assets/img/arriere-plans/st-denis.png
+image: arriere-plans/st-denis
 ---
 
 aaaaaaaaaaaaaaaaaaaa

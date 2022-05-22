@@ -1,8 +1,5 @@
 <template>
-  <section
-    class="headline"
-    :style="{ backgroundImage: `url(${$props.image})` }"
-  >
+  <section class="headline" :style="getStyle">
     <div class="items">
       <h1 class="titre">{{ $props.titre }}</h1>
       <p>Projet fait par William Ao et Adnan Taha</p>
@@ -18,25 +15,37 @@
 </template>
 
 <script>
-import Vue from 'vue';
 import ArrowDownIcon from '~/components/icons/ArrowDownIcon.vue';
 
-export default Vue.extend({
+export default {
   components: { ArrowDownIcon },
+  data() {
+    return {
+      bgimg: require(`~/assets/img/${this.image}.png`)
+    };
+  },
   props: {
     titre: {
       type: String,
       default: 'Projet Patriotes'
     },
     image: {
-      default: require('~/assets/img/arriere-plans/papineau.png')
+      type: String,
+      default: 'arriere-plans/papineau'
     },
     noarrow: {
       type: Boolean,
       default: false
     }
+  },
+  computed: {
+    getStyle() {
+      return {
+        backgroundImage: 'url(' + this.bgimg + ')'
+      };
+    }
   }
-});
+};
 </script>
 
 <style lang="scss">

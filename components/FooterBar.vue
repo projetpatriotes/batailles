@@ -32,7 +32,6 @@ footer {
   text-align: center;
   font-size: 1rem;
   padding: 1.5rem;
-  font-family: 'Comic Mono', monospace;
   a {
     color: #4c307a;
     transition-duration: 0.25s;

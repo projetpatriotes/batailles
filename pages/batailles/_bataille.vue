@@ -13,7 +13,7 @@
 export default {
   async asyncData({ $content, params }) {
     const page = await $content('batailles', params.bataille).fetch();
-    const image = require(page.image);
+    const image = 'portraits/' + page.image;
 
     return { page, image };
   }

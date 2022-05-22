@@ -40,8 +40,8 @@ export default {
       personnages,
       cote,
       images: {
-        anglais: require('~/assets/img/arriere-plans/capitulation-montreal.png'),
-        français: require('~/assets/img/arriere-plans/papineau.png')
+        anglais: 'arriere-plans/capitulation-montreal',
+        français: 'arriere-plans/papineau'
       }
     };
   },

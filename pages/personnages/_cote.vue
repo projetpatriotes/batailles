@@ -17,7 +17,7 @@
             <NuxtContent class="markdown-content" :document="personnage" />
           </div>
           <img
-            :src="getImage(personnage)"
+            :src="personnage.image ? getImage(personnage) : null"
             :alt="personnage.alt"
             :style="getMargin(index)"
           />

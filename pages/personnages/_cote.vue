@@ -17,7 +17,7 @@
             <NuxtContent class="markdown-content" :document="personnage" />
           </div>
           <img
-            :src="personnage.image"
+            :src="getImage(personnage)"
             :alt="personnage.alt"
             :style="getMargin(index)"
           />
@@ -46,6 +46,9 @@ export default {
     };
   },
   methods: {
+    getImage(perso) {
+      return require(`~/assets/img/${perso.image}.png`);
+    },
     getMargin(index) {
       return Object.fromEntries([
         [index % 2 === 0 ? 'margin-left' : 'margin-right', 'auto']

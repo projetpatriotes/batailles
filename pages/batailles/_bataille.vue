@@ -1,7 +1,7 @@
 <template>
   <div>
     <NavBar />
-    <HeadLine :titre="page.description" :image="image" />
+    <HeadLine :titre="page.description" :image="page.image" />
     <ParagrapheTexte>
       <NuxtContent class="markdown-content" :document="page" />
     </ParagrapheTexte>
@@ -13,9 +13,8 @@
 export default {
   async asyncData({ $content, params }) {
     const page = await $content('batailles', params.bataille).fetch();
-    const image = 'portraits/' + page.image;
 
-    return { page, image };
+    return { page };
   }
 };
 </script>

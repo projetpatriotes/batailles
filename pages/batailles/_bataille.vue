@@ -27,4 +27,9 @@ export default {
     text-decoration: underline double;
   }
 }
+
+.markdown-content {
+  background-color: $second-background;
+  border-radius: 1vw;
+}
 </style>

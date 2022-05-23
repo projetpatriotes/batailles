@@ -31,6 +31,6 @@ export default {
 .markdown-content {
   background-color: $second-background;
   border-radius: 1vw;
-  padding: 20px;
+  padding: 40px;
 }
 </style>

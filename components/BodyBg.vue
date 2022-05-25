@@ -1,8 +1,8 @@
 <template>
-<div class="has-bg" :style="getStyle">
+  <div class="has-bg" :style="getStyle">
     <HeadLine :title="$props.title" :title="$props.title" />
     <slot />
-</div>
+  </div>
 </template>
 
 <script>
@@ -33,7 +33,7 @@ export default {
       };
     }
   }
-}
+};
 </script>
 
 <style lang="scss">

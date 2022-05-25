@@ -14,6 +14,13 @@ h2 {
   color: $foreground;
 }
 
+a {
+  color: #3498db;
+  :visited {
+    color: #9b59b6;
+  }
+}
+
 svg {
   fill: $foreground;
 }

@@ -1,6 +1,6 @@
 <template>
   <div class="has-bg" :style="getStyle">
-    <HeadLine :title="$props.title" :noarrow="$props.noarrow" />
+    <HeadLine :titre="$props.titre" :noarrow="$props.noarrow" />
     <slot />
   </div>
 </template>

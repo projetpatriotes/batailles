@@ -71,9 +71,10 @@ jobs:
           rm -rf ./dist
 
       - name: Commit files ✔
+        continue-on-error: true
         run: |
           git fetch --all
           git pull
-          git add -A --ignore-errors
+          git add -A
           git commit -m "🎨 lint code" --allow-empty
           git push origin master

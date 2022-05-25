@@ -8,7 +8,7 @@
             v-for="(personnage, index) in personnages"
             :key="index"
             :style="{
-              'flex-flow': index % 2 === 0 ? 'row nowrap' : 'row-reverse nowrap'
+              'flex-direction': index % 2 === 0 ? 'row' : 'row-reverse'
             }"
             class="personnage"
           >
@@ -80,6 +80,8 @@ export default {
   margin-bottom: 1.5rem;
   border-radius: 1rem;
   background-color: $second-background;
+  flex-wrap: nowrap;
+
   &:last-of-type {
     margin-bottom: 0;
   }

@@ -1,10 +1,11 @@
 <template>
   <div>
     <NavBar />
-    <HeadLine :titre="page.description" :image="page.image" />
-    <ParagrapheTexte>
-      <NuxtContent class="markdown-content" :document="page" />
-    </ParagrapheTexte>
+    <BodyBg :titre="page.description" :image="page.image">
+      <ParagrapheTexte>
+        <NuxtContent class="markdown-content" :document="page" />
+      </ParagrapheTexte>
+    </BodyBg>
     <FooterBar />
   </div>
 </template>
@@ -20,17 +21,17 @@ export default {
 </script>
 
 <style lang="scss">
-.markdown-content a {
-  text-decoration: underline;
-  &:hover {
-    font-weight: bold;
-    text-decoration: underline double;
-  }
-}
-
 .markdown-content {
   background-color: $second-background;
   border-radius: 1vw;
   padding: 2.5rem;
+
+  a {
+    text-decoration: underline;
+    &:hover {
+      font-weight: bold;
+      text-decoration: underline double;
+    }
+  }
 }
 </style>

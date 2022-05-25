@@ -1,7 +1,7 @@
 <template>
   <div>
     <NavBar />
-    <HeadLine titre="Projet Patriotes" :noarrow="true" />
+    <BodyBg titre="Projet Patriotes" :noarrow="true"></BodyBg>
     <FooterBar />
   </div>
 </template>

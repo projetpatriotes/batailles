@@ -1,10 +1,11 @@
 <template>
   <div>
     <NavBar />
-    <HeadLine titre="Bibliographie" />
-    <ParagrapheTexte>
-      <NuxtContent class="markdown-content" :document="page"></NuxtContent>
-    </ParagrapheTexte>
+    <BodyBg titre="Bibliographie">
+      <ParagrapheTexte>
+        <NuxtContent class="markdown-content" :document="page" />
+      </ParagrapheTexte>
+    </BodyBg>
     <FooterBar />
   </div>
 </template>

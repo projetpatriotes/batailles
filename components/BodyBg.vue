@@ -1,6 +1,6 @@
 <template>
   <div class="has-bg" :style="getStyle">
-    <HeadLine :title="$props.title" :title="$props.title" />
+    <HeadLine :title="$props.title" :noarrow="$props.noarrow" />
     <slot />
   </div>
 </template>
@@ -38,7 +38,8 @@ export default {
 
 <style lang="scss">
 .has-bg {
-  background: url('/assets/img/arriere-plans/papineau.png') fixed center;
+  background-attachment: fixed;
+  background-position: center;
   background-size: cover;
 }
 </style>

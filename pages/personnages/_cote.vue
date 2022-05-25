@@ -1,29 +1,30 @@
 <template>
   <div>
     <NavBar />
-    <HeadLine :titre="'Personnages ' + cote" :image="images[cote]" />
-    <section id="premiereSection" class="liste">
-      <ul>
-        <li
-          v-for="(personnage, index) in personnages"
-          :key="index"
-          :style="{
-            'flex-flow': index % 2 === 0 ? 'row nowrap' : 'row-reverse nowrap'
-          }"
-          class="personnage"
-        >
-          <div class="text">
-            <h2>{{ personnage.nom }}</h2>
-            <NuxtContent class="markdown-content" :document="personnage" />
-          </div>
-          <img
-            :src="personnage.image ? getImage(personnage) : null"
-            :alt="personnage.alt"
-            :style="getMargin(index)"
-          />
-        </li>
-      </ul>
-    </section>
+    <BodyBg :titre="'Personnages ' + cote" :image="images[cote]">
+      <section id="premiereSection" class="liste">
+        <ul>
+          <li
+            v-for="(personnage, index) in personnages"
+            :key="index"
+            :style="{
+              'flex-flow': index % 2 === 0 ? 'row nowrap' : 'row-reverse nowrap'
+            }"
+            class="personnage"
+          >
+            <div class="text">
+              <h2>{{ personnage.nom }}</h2>
+              <NuxtContent class="markdown-content" :document="personnage" />
+            </div>
+            <img
+              :src="personnage.image ? getImage(personnage) : null"
+              :alt="personnage.alt"
+              :style="getMargin(index)"
+            />
+          </li>
+        </ul>
+      </section>
+    </BodyBg>
     <FooterBar />
   </div>
 </template>
@@ -68,6 +69,7 @@ export default {
     list-style-type: none;
   }
 }
+
 .personnage {
   @media only screen and (hover: none) and (pointer: coarse) {
     flex-flow: column nowrap;

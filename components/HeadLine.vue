@@ -19,30 +19,14 @@ import ArrowDownIcon from '~/components/icons/ArrowDownIcon.vue';
 
 export default {
   components: { ArrowDownIcon },
-  data() {
-    return {
-      bgimg: require(`~/assets/img/${this.image}.png`)
-    };
-  },
   props: {
     titre: {
       type: String,
       default: 'Projet Patriotes'
     },
-    image: {
-      type: String,
-      default: 'arriere-plans/papineau'
-    },
     noarrow: {
       type: Boolean,
       default: false
-    }
-  },
-  computed: {
-    getStyle() {
-      return {
-        backgroundImage: 'url(' + this.bgimg + ')'
-      };
     }
   }
 };
@@ -86,8 +70,7 @@ export default {
   width: 100%;
   height: calc(100vh - 5rem);
   min-height: 350px;
-  background: url('/assets/img/arriere-plans/papineau.png') fixed center;
-  background-size: cover;
+  background: transparent;
   display: flex;
   flex-direction: column;
   justify-content: center;

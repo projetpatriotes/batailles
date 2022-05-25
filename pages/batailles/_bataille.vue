@@ -30,7 +30,6 @@ export default {
 
 .markdown-content {
   background-color: $second-background;
-  opacity: 50%;
   border-radius: 1vw;
   padding: 2.5rem;
 }

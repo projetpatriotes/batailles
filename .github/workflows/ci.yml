@@ -76,5 +76,5 @@ jobs:
           git fetch --all
           git pull
           git add -A
-          git commit -m "🎨 lint code" --allow-empty
+          git commit -m "🎨 lint code"
           git push origin master

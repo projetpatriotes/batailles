@@ -119,7 +119,7 @@ export default {
       overflow: hidden;
       padding: 0.5rem;
       border-radius: 0 0 1rem 1rem;
-      font-size: inherit;
+      text-align: center;
       color: $selection-foreground;
       background-color: $selection-background;
       opacity: 0;

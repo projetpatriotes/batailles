@@ -108,7 +108,7 @@ export default {
     img {
       height: 20rem;
       border-radius: 1rem;
-      transition: border-radius 0.2s ease-in-out 0.2s;
+      transition: border-radius 0.2s ease-in-out;
     }
 
     figcaption {
@@ -120,7 +120,7 @@ export default {
       color: $selection-foreground;
       background-color: $selection-background;
       opacity: 0;
-      transition: opacity 0.2s ease-in-out;
+      transition: opacity 0.2s ease-in-out 0.2s;
     }
 
     &:hover {

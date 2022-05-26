@@ -109,9 +109,6 @@ export default {
       height: 20rem;
       border-radius: 1rem;
       transition: border-radius 0.2s ease-in-out;
-      &:hover {
-        border-radius: 1rem 1rem 0 0;
-      }
     }
 
     figcaption {
@@ -126,8 +123,13 @@ export default {
       transition: opacity 0.2s ease-in-out;
     }
 
-    &:hover figcaption {
-      opacity: 1;
+    &:hover {
+      img {
+        border-radius: 1rem 1rem 0 0;
+      }
+      figcaption {
+        opacity: 1;
+      }
     }
   }
 }

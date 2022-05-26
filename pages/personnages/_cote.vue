@@ -16,11 +16,14 @@
               <h2>{{ personnage.nom }}</h2>
               <NuxtContent class="markdown-content" :document="personnage" />
             </div>
-            <img
-              :src="getImage(personnage.image || 'portraits/default')"
-              :alt="personnage.alt"
-              :style="getImageMargin(index)"
-            />
+            <figure>
+              <img
+                :src="getImage(personnage.image || 'portraits/default')"
+                :alt="personnage.alt"
+                :style="getImageMargin(index)"
+              />
+              <figcaption>{{ personnage.alt }}</figcaption>
+            </figure>
           </li>
         </ul>
       </section>
@@ -74,6 +77,7 @@ export default {
     align-items: cen;
   }
   display: inline-flex;
+  height: fit-content;
   padding: 2rem;
   margin-bottom: 1.5rem;
   border-radius: 1rem;
@@ -85,6 +89,7 @@ export default {
   }
 
   /* nvm its fine, he's not that stretched anyway and I'm done with his text*/
+  // stretch is gone :DDDDDDDD
   .text {
     padding: 0 1em 1em 1em;
     overflow: hidden;
@@ -93,26 +98,36 @@ export default {
       padding: 0;
     }
   }
-  img {
-    height: 20rem;
+  figure {
+    height: auto;
+    display: inline-flex;
+    flex-direction: column;
+    max-width: auto;
     margin-top: auto;
     margin-bottom: auto;
-    border-radius: 1rem;
-    transition: 0.2s;
-    &:hover {
-      border-radius: 1rem 1rem 0 0;
+    img {
+      height: 20rem;
+      border-radius: 1rem;
+      transition: border-radius 0.2s ease-in-out;
+      &:hover {
+        border-radius: 1rem 1rem 0 0;
+      }
     }
-    &:hover::after {
-      content: attr(alt, 'Aucune description de plus sur ce portrait.');
-      position: absolute;
-      z-index: 1;
-      left: 0;
-      top: 2rem;
-      width: 15rem;
+
+    figcaption {
+      width: auto;
+      overflow: hidden;
+      padding: 0.5rem;
       border-radius: 0 0 1rem 1rem;
       font-size: inherit;
       color: $selection-foreground;
       background-color: $selection-background;
+      opacity: 0;
+      transition: opacity 0.2s ease-in-out;
+    }
+
+    &:hover figcaption {
+      opacity: 1;
     }
   }
 }

@@ -94,8 +94,9 @@ export default {
     }
   }
   img {
-    width: 15em;
-    height: auto;
+    height: 20rem;
+    margin-top: auto;
+    margin-bottom: auto;
     border-radius: 1rem;
     transition: 0.2s;
     &:hover {

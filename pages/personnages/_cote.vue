@@ -17,9 +17,9 @@
               <NuxtContent class="markdown-content" :document="personnage" />
             </div>
             <img
-              :src="personnage.image ? getImage(personnage) : null"
+              :src="getImage(personnage.image || 'portraits/default')"
               :alt="personnage.alt"
-              :style="getMargin(index)"
+              :style="getImageMargin(index)"
             />
           </li>
         </ul>
@@ -47,13 +47,11 @@ export default {
     };
   },
   methods: {
-    getImage(perso) {
-      return require(`~/assets/img/${perso.image}.png`);
+    getImage(image) {
+      return require(`~/assets/img/${image}.png`);
     },
-    getMargin(index) {
-      return Object.fromEntries([
-        [index % 2 === 0 ? 'margin-left' : 'margin-right', 'auto']
-      ]);
+    getImageMargin(index) {
+      return index % 2 === 0 ? { marginLeft: 'auto' } : {};
     }
   }
 };
@@ -90,6 +88,10 @@ export default {
   .text {
     padding: 0 1em 1em 1em;
     overflow: hidden;
+    margin-right: auto;
+    .markdown-content {
+      padding: 0;
+    }
   }
   img {
     width: 15em;

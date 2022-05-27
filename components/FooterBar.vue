@@ -32,13 +32,6 @@ footer {
   text-align: center;
   font-size: 1rem;
   padding: 1.5rem;
-  a {
-    color: #4c307a;
-    transition-duration: 0.25s;
-    &:hover {
-      color: #6f49ad;
-    }
-  }
 }
 .copyright {
   font-size: 0.9em;

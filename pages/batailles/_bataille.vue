@@ -29,13 +29,5 @@ export default {
   background-color: $second-background;
   border-radius: 1vw;
   padding: 2.5rem;
-
-  a {
-    text-decoration: underline;
-    &:hover {
-      font-weight: bold;
-      text-decoration: underline double;
-    }
-  }
 }
 </style>

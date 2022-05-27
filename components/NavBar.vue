@@ -8,7 +8,7 @@
     <ul class="nav-items">
       <li class="nav-item"><NuxtLink to="/">Accueil</NuxtLink></li>
       <li class="nav-item">
-        <DropDown titre="Batailles" :items="listeDesBatailles" />
+        <DropDown titre="Batailles importantes" :items="listeDesBatailles" />
       </li>
       <li class="nav-item">
         <DropDown

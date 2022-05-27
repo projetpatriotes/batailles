@@ -1,10 +1,11 @@
 <template>
   <div>
     <NavBar />
-    <BodyBg titre="Projet Patriotes" :noarrow="true"></BodyBg>
+    <BodyBg titre="Projet Patriotes" :noarrow="true">
     <ParagrapheTexte>
-      <NuxtContent class="markdown-content" :document="page" />
-    </ParagrapheTexte>
+        <NuxtContent class="markdown-content" :document="page" />
+      </ParagrapheTexte>
+    </BodyBg>
     <FooterBar />
   </div>
 </template>

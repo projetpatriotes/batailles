@@ -1,6 +1,4 @@
-- Organisme ou NOM, Prénom. (Page consultee le 4 mai 2022 ). _Titre de la page d’accueil_, [En ligne]. Adresse URL: [https://example.com](https://example.com)
-- NOM, Prénom. _Titre du livre_, Ville de l’éditeur, Éditeur, année de l’édition, [nombre de pages] p.
-
+- VÉRONIQUE, Déry. Histoire et éducation à la citoyenneté: Cahier de l'élève, Montreal, Véronique, 2022, 134 p.
 - Wikipédia. (Page consultée le 20 mai 2022). _Rébellion des Patriotes_ [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Rébellion_des_Patriotes
 
 **Personnages**
@@ -11,6 +9,7 @@
 - Wikipédia. (Page consultée le 20 mai 2022). _Wolfred Nelson_, [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Wolfred_Nelson
 - Wikipédia. (Page consultée le 16 mai 2022). _John George Lambton_, [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/John_George_Lambton
 - Wikipédia. (Page consultée le 17 mai 2022). _John Colborne_, [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/John_Colborne
+- Wikipédia. (Page consultée le 25 mai 2022). _Archibald Acheson (2e comte de Gosford)_, [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Archibald_Acheson_(2e_comte_de_Gosford)
 
 **Batailles**
 

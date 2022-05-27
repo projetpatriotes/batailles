@@ -2,7 +2,7 @@
   <div>
     <NavBar />
     <BodyBg titre="Projet Patriotes" :noarrow="true">
-    <ParagrapheTexte>
+      <ParagrapheTexte>
         <NuxtContent class="markdown-content" :document="page" />
       </ParagrapheTexte>
     </BodyBg>

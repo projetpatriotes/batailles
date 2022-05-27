@@ -15,6 +15,9 @@ export default {
   async asyncData({ $content }) {
     const page = await $content('bibliographie').fetch();
     return { page };
+  },
+  head() {
+    return { title: 'Projet Patriotes | Bibliographie' };
   }
 };
 </script>

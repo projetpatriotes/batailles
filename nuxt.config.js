@@ -1,5 +1,5 @@
 const description =
-  "Ce site web est un projet inter-disciplinaire de l'École internationale de Montréal, avec collaboration entre les cours d'histoire et de français de secondaire 3 de l'année scolaire 2021-2022.";
+  "La rébellion des patriotes est survenue durant les années 1837 et 1838. Ce conflit, malgré avoir eu lieu tant au Haut-Canada qu'au Bas-Canada, a été beaucoup plus violent et meurtrier au Bas-Canada. Dans ce site internet, nous allons donc parler des grands évènements et personnages ayant participé dans le conflit au Bas-Canada. Ce conflit est en grande partie le résultat de la distribution du pouvoir dans les colonies du Canada. En effet, malgré la majorité franco-canadienne au Bas-Canada, toutes les lois proposées par leur assemblée n'étaient que refusée par le gouverneur général. Celui-ci avait un droit absolu sur tout le gouvernement. La majorité des sièges de l'assemblée est occupée par le Parti Canadien (78/84 sièges), mais malgré cela, aucune de leurs propositionss de loi sont acceptées.";
 
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
@@ -10,7 +10,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Projet Patriotes - Batailles',
+    title: 'Projet Patriotes',
     htmlAttrs: {
       lang: 'fr_CA',
       prefix: 'og: https://ogp.me/ns#'
@@ -36,23 +36,18 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: '~/assets/img/arriere-plans/papineau.png'
+        content: '/favicon.png'
       },
-      {
-        hid: 'og:image:alt',
-        property: 'og:image:alt',
-        content: 'Le discours de Louis-Joseph Papineau.'
-      },
-      // Twitter
+      // Twitter (https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started)
       {
         hid: 'twitter:image',
         property: 'twitter:image',
-        content: '~/assets/img/arriere-plans/papineau.png'
+        content: '/favicon.png'
       },
       {
         hid: 'twitter:card',
         property: 'twitter:card',
-        content: 'summary_large_image'
+        content: 'summary'
       }
     ],
     link: [

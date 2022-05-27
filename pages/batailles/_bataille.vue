@@ -16,6 +16,10 @@ export default {
     const page = await $content('batailles', params.bataille).fetch();
 
     return { page };
+  },
+
+  head() {
+    return { title: `Projet Patriotes | ${this.page.description}` };
   }
 };
 </script>

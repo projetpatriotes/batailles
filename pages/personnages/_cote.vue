@@ -56,6 +56,9 @@ export default {
     getImageMargin(index) {
       return index % 2 === 0 ? { marginLeft: 'auto' } : {};
     }
+  },
+  head() {
+    return { title: `Projet Patriotes | ${this.page.description}` };
   }
 };
 </script>

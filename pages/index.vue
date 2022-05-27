@@ -3,8 +3,8 @@
     <NavBar />
     <BodyBg titre="Projet Patriotes" :noarrow="true"></BodyBg>
     <ParagrapheTexte>
-        <NuxtContent class="markdown-content" :document="page" />
-      </ParagrapheTexte>
+      <NuxtContent class="markdown-content" :document="page" />
+    </ParagrapheTexte>
     <FooterBar />
   </div>
 </template>

@@ -19,7 +19,7 @@ export default {
   },
 
   head() {
-    return { title: `Projet Patriotes | ${this.page.description}` };
+    return { title: this.page.description };
   }
 };
 </script>

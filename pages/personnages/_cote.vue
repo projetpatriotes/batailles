@@ -58,7 +58,7 @@ export default {
     }
   },
   head() {
-    return { title: `Projet Patriotes | ${this.page.description}` };
+    return { title: 'Personnages ' + this.cote };
   }
 };
 </script>

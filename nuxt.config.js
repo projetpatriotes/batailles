@@ -10,7 +10,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Projet Patriotes',
+    title: 'Acceuil',
+    titleTemplate: 'Projet Patriotes | %s',
     htmlAttrs: {
       lang: 'fr_CA',
       prefix: 'og: https://ogp.me/ns#'

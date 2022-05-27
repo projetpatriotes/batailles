@@ -17,7 +17,7 @@ export default {
     return { page };
   },
   head() {
-    return { title: 'Projet Patriotes | Bibliographie' };
+    return { title: 'Bibliographie' };
   }
 };
 </script>

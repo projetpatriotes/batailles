@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <a href="https://github.com/me-shaon/GLWTPL">
+  <a href="https://github.com/projetpatriotes/projetpatriotes.github.io/blob/master/LICENSE.md">
     <img src="https://img.shields.io/badge/License-DBAD-red.svg" alt="GLWTPL">
   </a>
   <a href="CODE_OF_CONDUCT.md">

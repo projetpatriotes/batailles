@@ -126,11 +126,9 @@ export default {
     &:hover {
       img {
         border-radius: 1rem 1rem 0 0;
-        transition: border-radius 0.2s ease-in-out 0.2s;
       }
       figcaption {
         opacity: 1;
-        transition: opacity 0.2s ease-in-out;
       }
     }
   }

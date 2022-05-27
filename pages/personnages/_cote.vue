@@ -108,7 +108,7 @@ export default {
     img {
       height: 20rem;
       border-radius: 1rem;
-      transition: border-radius 0.2s ease-in-out;
+      transition: border-radius 0.2s ease-in, border-radius 0.2s ease-out 0.2s;
     }
 
     figcaption {

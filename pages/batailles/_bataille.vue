@@ -25,7 +25,7 @@ export default {
   background-color: $second-background;
   border-radius: 1vw;
   padding: 2.5rem;
-  text-justify: inter-word;
+  text-align: justify;
 
   a {
     text-decoration: underline;

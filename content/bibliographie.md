@@ -17,3 +17,4 @@
 - Wikipédia. (Page consultée le 15 mai 2022). _Bataille de Saint-Eustache_, [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Bataille_de_Saint-Eustache
 - Wikipédia. (Page consultée le 26 mai 2022). _Bataille de Saint-Charles_, [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Bataille_de_Saint-Charles
 - Wikipédia. (Page consultée le 26 mai 2022). _Bataille d'Odelltown_, [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Bataille_d%27Odelltown
+- Wikipédia. (Page consultée le 26 mai 2022). _Bataille de Lacolle_, [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Bataille_de_Lacolle

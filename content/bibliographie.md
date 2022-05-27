@@ -18,3 +18,5 @@
 - Wikipédia. (Page consultée le 26 mai 2022). _Bataille de Saint-Charles_, [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Bataille_de_Saint-Charles
 - Wikipédia. (Page consultée le 26 mai 2022). _Bataille d'Odelltown_, [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Bataille_d%27Odelltown
 - Wikipédia. (Page consultée le 26 mai 2022). _Bataille de Lacolle_, [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Bataille_de_Lacolle
+- Wikipédia. (Page consultée le 27 mai 2022). _Bataille de Baker's Farm_, [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Bataille_de_Baker%27s_farm
+- Wikipédia. (Page consultée le 27 mai 2022). _Bataille de Beauharnois_, [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Bataille_de_Beauharnois

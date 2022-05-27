@@ -1,10 +1,20 @@
 - Organisme ou NOM, Prénom. (Page consultee le 4 mai 2022 ). _Titre de la page d’accueil_, [En ligne]. Adresse URL: [https://example.com](https://example.com)
 - NOM, Prénom. _Titre du livre_, Ville de l’éditeur, Éditeur, année de l’édition, [nombre de pages] p.
-- L'Encyclopédie canadienne, BUCKNER, Phillip. (Page consultée le 18 mai 2022). _Durham, John George Lambton, 1er comte de_, [En ligne]. Adresse URL: [https://thecanadianencyclopedia.ca/fr/article/john-george-lambton-1st-earl-of-durham](https://thecanadianencyclopedia.ca/fr/article/john-george-lambton-1st-earl-of-durham)
-- Wikipédia. (Page consultée le 20 mai 2022). _Jean-Olivier Chénier_ [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Jean-Olivier_Ch%C3%A9nier
-- Wikipédia. (Page consultée le 15 mai 2022). _Louis-Joseph Papineau_ [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Louis-Joseph_Papineau
+
 - Wikipédia. (Page consultée le 20 mai 2022). _Rébellion des Patriotes_ [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Rébellion_des_Patriotes
-- Wikipédia. (Page consultée le 20 mai 2022). _Wolfred Nelson_ [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Wolfred_Nelson
-- Wikipédia. (Page consultée le 16 mai 2022). _John George Lambton_ [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/John_George_Lambton
-- Wikipédia. (Page consultée le 17 mai 2022). _John Colborne_ [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/John_Colborne
-- Wikipédia. (Page consultée le 26 mai 2022). _Bataille de Saint-Denis(Québec)._ [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Bataille_de_Saint-Denis_(Québec)
+
+
+**Personnages**
+- L'Encyclopédie canadienne, BUCKNER, Phillip. (Page consultée le 18 mai 2022). _Durham, John George Lambton, 1er comte de_, [En ligne]. Adresse URL: https://thecanadianencyclopedia.ca/fr/article/john-george-lambton-1st-earl-of-durham
+- Wikipédia. (Page consultée le 20 mai 2022). _Jean-Olivier Chénier_, [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Jean-Olivier_Ch%C3%A9nier
+- Wikipédia. (Page consultée le 15 mai 2022). _Louis-Joseph Papineau_, [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Louis-Joseph_Papineau
+- Wikipédia. (Page consultée le 20 mai 2022). _Wolfred Nelson_, [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Wolfred_Nelson
+- Wikipédia. (Page consultée le 16 mai 2022). _John George Lambton_, [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/John_George_Lambton
+- Wikipédia. (Page consultée le 17 mai 2022). _John Colborne_, [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/John_Colborne
+
+
+**Batailles**
+
+- Wikipédia. (Page consultée le 26 mai 2022). _Bataille de Saint-Denis(Québec)_, [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Bataille_de_Saint-Denis_(Québec)
+- Wikipédia. (Page consultée le 15 mai 2022). _Bataille de Saint-Eustache_, [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Bataille_de_Saint-Eustache
+- Wikipédia. (Page consultée le 26 mai 2022). _Bataille de Saint-Charles_, [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Bataille_de_Saint-Charles

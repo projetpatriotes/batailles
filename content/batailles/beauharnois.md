@@ -1,6 +1,6 @@
 ---
 title: Beauharnois
-description: Bataille de Beauharnois
+description: Bataille de Beauharnois (1838)
 image: arriere-plans/beauharnois
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Odelltown
-description: Bataille d'Odelltown
+description: Bataille d'Odelltown (1838)
 image: arriere-plans/odelltown
 ---
 

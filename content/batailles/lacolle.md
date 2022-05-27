@@ -1,6 +1,6 @@
 ---
 title: Lacolle
-description: Bataille de Lacolle
+description: Bataille de Lacolle (1838)
 image: arriere-plans/odelltown
 ---
 

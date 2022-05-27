@@ -6,4 +6,5 @@
 - Wikipédia. (Page consultée le 20 mai 2022). _Rébellion des Patriotes_ [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Rébellion_des_Patriotes
 - Wikipédia. (Page consultée le 20 mai 2022). _Wolfred Nelson_ [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Wolfred_Nelson
 - Wikipédia. (Page consultée le 16 mai 2022). _John George Lambton_ [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/John_George_Lambton
-- Wikipédia. (Page consultée le 17 mai 2022). _John Colborne_ [En ligne]. Adress URL: https://fr.wikipedia.org/wiki/John_Colborne
+- Wikipédia. (Page consultée le 17 mai 2022). _John Colborne_ [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/John_Colborne
+- Wikipédia. (Page consultée le 26 mai 2022). _Bataille de Saint-Denis(Québec)._ [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Bataille_de_Saint-Denis_(Québec)

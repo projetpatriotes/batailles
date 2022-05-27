@@ -1,10 +1,6 @@
 <template>
   <nav class="nav">
-    <div class="logo">
-      <span class="green">Proje</span>
-      <span class="white">t Patr</span>
-      <span class="red">iotes</span>
-    </div>
+    <span class="logo">Projet Patriotes</span>
     <ul class="nav-items">
       <li class="nav-item"><NuxtLink to="/">Accueil</NuxtLink></li>
       <li class="nav-item">
@@ -56,21 +52,16 @@ export default Vue.extend({
   height: 5rem;
   color: $text;
   .logo {
-    color: $selection-background;
-    padding: 2rem;
-    font-size: 1.2rem;
-    span {
-      margin-left: -0.25rem;
-    }
-    .green {
-      color: #368b48;
-    }
-    .white {
-      color: #ffffff;
-    }
-    .red {
-      color: #c30026;
-    }
+    color: transparent;
+    max-width: fit-content;
+    margin-left: 1.5rem;
+    font-size: 2rem;
+    background: linear-gradient(
+      #368b48 0 50%,
+      #ffffff 50% 65%,
+      #c30026 65% 100%
+    );
+    background-clip: text;
   }
   .nav-items {
     display: flex;

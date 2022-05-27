@@ -100,7 +100,8 @@ export default Vue.extend({
 
         &:hover,
         &:active,
-        &:focus {
+        &:focus,
+        &.active {
           border-color: $selection-background;
           color: $selection-foreground;
           background-color: $selection-background;

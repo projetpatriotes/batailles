@@ -1,6 +1,9 @@
 <template>
   <div class="dropdown-menu">
-    <button @click="dropdownOpen = !dropdownOpen">
+    <button
+      @click="dropdownOpen = !dropdownOpen"
+      :class="{ active: dropdownOpen }"
+    >
       {{ titre }}
     </button>
     <ul v-show="dropdownOpen">

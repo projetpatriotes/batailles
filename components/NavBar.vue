@@ -8,11 +8,11 @@
     <ul class="nav-items">
       <li class="nav-item"><NuxtLink to="/">Accueil</NuxtLink></li>
       <li class="nav-item">
-        <DropDown titre="Liste des batailles" :items="listeDesBatailles" />
+        <DropDown titre="Batailles" :items="listeDesBatailles" />
       </li>
       <li class="nav-item">
         <DropDown
-          titre="Liste des personnages"
+          titre="Personnages"
           :items="[
             { title: 'Anglais', path: '/personnages/anglais' },
             { title: 'Français', path: '/personnages/francais' }

@@ -120,7 +120,7 @@ export default {
       color: $selection-foreground;
       background-color: $selection-background;
       opacity: 0;
-      transition: opacity 0.2s ease-in-out ;
+      transition: opacity 0.2s ease-in-out;
     }
 
     &:hover {

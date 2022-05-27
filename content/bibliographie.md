@@ -3,15 +3,14 @@
 
 - Wikipédia. (Page consultée le 20 mai 2022). _Rébellion des Patriotes_ [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Rébellion_des_Patriotes
 
-
 **Personnages**
+
 - L'Encyclopédie canadienne, BUCKNER, Phillip. (Page consultée le 18 mai 2022). _Durham, John George Lambton, 1er comte de_, [En ligne]. Adresse URL: https://thecanadianencyclopedia.ca/fr/article/john-george-lambton-1st-earl-of-durham
 - Wikipédia. (Page consultée le 20 mai 2022). _Jean-Olivier Chénier_, [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Jean-Olivier_Ch%C3%A9nier
 - Wikipédia. (Page consultée le 15 mai 2022). _Louis-Joseph Papineau_, [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Louis-Joseph_Papineau
 - Wikipédia. (Page consultée le 20 mai 2022). _Wolfred Nelson_, [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Wolfred_Nelson
 - Wikipédia. (Page consultée le 16 mai 2022). _John George Lambton_, [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/John_George_Lambton
 - Wikipédia. (Page consultée le 17 mai 2022). _John Colborne_, [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/John_Colborne
-
 
 **Batailles**
 

@@ -25,7 +25,9 @@ If not, see <https://www.gnu.org/licenses/>.
       <div class="copyright">
         Copyright © 2022-present William Ao et Adnan Taha. Ce travail est
         licensé sous la
-        <a :href="licenseUrl" target="_blank"> License Publique DBAD </a>
+        <a :href="licenseUrl" target="_blank">
+          GNU General Public License v3.0
+        </a>
       </div>
     </footer>
   </section>
@@ -34,8 +36,7 @@ If not, see <https://www.gnu.org/licenses/>.
 <script>
 export default {
   data: () => ({
-    licenseUrl:
-      'https://github.com/projetpatriotes/projetpatriotes.github.io/blob/master/LICENSE.md'
+    licenseUrl: 'https://www.gnu.org/licenses/gpl-3.0.html'
   })
 };
 </script>

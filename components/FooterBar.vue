@@ -20,7 +20,7 @@
 export default {
   data: () => ({
     licenseUrl:
-      'https://github.com/projetpatriotes/projetpatriotes.github.io/raw/master/LICENSE.md'
+      'https://github.com/projetpatriotes/projetpatriotes.github.io/blob/master/LICENSE.md'
   })
 };
 </script>

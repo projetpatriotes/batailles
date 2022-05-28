@@ -1,14 +1,11 @@
-# This CITATION.cff file was generated with cffinit.
-# Visit https://bit.ly/cffinit to generate yours today!
-
 cff-version: 1.2.0
 title: Projet Patriotes
 message: >-
-  Si vous utilisez ce logiciel, veuillez le citer
+  Si vous utilisez ce site web, veuillez le citer
   comme suit.
 type: software
 authors:
-  - given-names: Adnan
+  - given-names: Adnan-Aidan
     family-names: Taha
     email: tahaa9@csdmedu.ca
     affiliation: École internationale de Montréal (Étudiant)
@@ -20,7 +17,7 @@ repository-code: >-
   https://github.com/projetpatriotes/projetpatriotes.github.io
 url: 'https://projetpatriotes.github.io'
 repository-artifact: >-
-  https://github.com/projetpatriotes/projetpatriotes.github.io/archive/refs/heads/master.zip
+  https://github.com/projetpatriotes/projetpatriotes.github.io/archive/master.zip
 abstract: >-
   C'est un projet inter-disciplinaire de l'École
   internationale de Montréal, en collaboration entre
@@ -33,4 +30,4 @@ keywords:
   - nuxt
   - nuxtjs
   - vue
-license: DBAD
+license: GPL-3.0

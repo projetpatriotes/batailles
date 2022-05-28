@@ -23,12 +23,11 @@ If not, see <https://www.gnu.org/licenses/>.
         de Montréal, avec collaboration entre les cours d'histoire et de
         français de secondaire 3 de l'année scolaire 2021-2022.
       </div>
-      <br />
       <div class="copyright">
         Copyright © 2022-present Adnan-Aidan Taha et William Ao. Ce travail est
         licensé sous la
         <a :href="licenseUrl" target="_blank">
-          GNU General Public License v3.0
+          <img :src="licenseLogo" :alt="licenseName" />
         </a>
       </div>
     </footer>
@@ -38,7 +37,9 @@ If not, see <https://www.gnu.org/licenses/>.
 <script>
 export default {
   data: () => ({
-    licenseUrl: 'https://www.gnu.org/licenses/gpl-3.0.html'
+    licenseName: 'GNU General Public License v3.0',
+    licenseUrl: 'https://www.gnu.org/licenses/gpl-3.0.html',
+    licenseLogo: 'https://www.gnu.org/graphics/gplv3-or-later-sm.png'
   })
 };
 </script>
@@ -52,6 +53,11 @@ footer {
   padding: 1.5rem;
 }
 .copyright {
-  font-size: 0.9em;
+  display: inline-flex;
+  font-size: 0.95rem;
+  align-items: center;
+  img {
+    margin: 0.5rem 0 0 0.5rem;
+  }
 }
 </style>

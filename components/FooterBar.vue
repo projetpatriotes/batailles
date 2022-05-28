@@ -1,4 +1,6 @@
 <!--
+Copyright © 2022-present Adnan-Aidan Taha and William Ao
+Copyright © 2022-present Adnan-Aidan Taha and William Ao
 This file is part of "Projet Patriotes".
 
 "Projet Patriotes" is free software: you can redistribute it and/or modify it under the terms
@@ -23,7 +25,7 @@ If not, see <https://www.gnu.org/licenses/>.
       </div>
       <br />
       <div class="copyright">
-        Copyright © 2022-present William Ao et Adnan Taha. Ce travail est
+        Copyright © 2022-present Adnan-Aidan Taha et William Ao. Ce travail est
         licensé sous la
         <a :href="licenseUrl" target="_blank">
           GNU General Public License v3.0

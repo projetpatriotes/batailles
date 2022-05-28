@@ -1,4 +1,5 @@
 <!--
+Copyright © 2022-present Adnan-Aidan Taha and William Ao
 This file is part of "Projet Patriotes".
 
 "Projet Patriotes" is free software: you can redistribute it and/or modify it under the terms

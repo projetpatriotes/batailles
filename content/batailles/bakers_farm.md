@@ -1,7 +1,7 @@
 ---
 title: Baker's Farm
 description: Bataille de Baker's Farm (1838)
-image: arriere-plans/beauharnois.png
+image: arriere-plans/beauharnois
 ---
 
 **Déroulement**

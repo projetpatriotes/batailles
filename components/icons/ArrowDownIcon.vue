@@ -1,3 +1,18 @@
+<!--
+This file is part of "Projet Patriotes".
+
+"Projet Patriotes" is free software: you can redistribute it and/or modify it under the terms
+of the GNU General Public License as published by the Free Software Foundation,
+either version 3 of the License, or (at your option) any later version.
+
+"Projet Patriotes" is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with "Projet Patriotes".
+If not, see <https://www.gnu.org/licenses/>.
+-->
+
 <template>
   <!-- https://fonts.google.com/icons?selected=Material%20Symbols%20Rounded%3Aarrow_downward%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4048 -->
   <svg xmlns="http://www.w3.org/2000/svg" class="arrow-downward-icon">

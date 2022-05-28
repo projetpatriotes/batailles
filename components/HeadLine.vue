@@ -1,7 +1,24 @@
+<!--
+This file is part of "Projet Patriotes".
+
+"Projet Patriotes" is free software: you can redistribute it and/or modify it under the terms
+of the GNU General Public License as published by the Free Software Foundation,
+either version 3 of the License, or (at your option) any later version.
+
+"Projet Patriotes" is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with "Projet Patriotes".
+If not, see <https://www.gnu.org/licenses/>.
+-->
+
 <template>
   <section class="headline" :style="getStyle">
     <div class="items">
-      <h1 class="titre">{{ $props.titre }}</h1>
+      <h1 :class="{ titre: true, logo: $props.titre === 'Projet Patriotes' }">
+        {{ $props.titre }}
+      </h1>
       <p>Projet fait par William Ao et Adnan Taha</p>
     </div>
     <div
@@ -79,8 +96,12 @@ export default {
   }
   .items {
     padding: 1em;
-    background-color: rgba($selection-background, 0.5);
-    h1,
+    background-color: rgba($selection-background, 0.75);
+
+    h1 {
+      text-align: center;
+    }
+
     p {
       color: $selection-foreground;
       text-align: center;

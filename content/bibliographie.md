@@ -4,6 +4,7 @@
 **Personnages**
 
 - L'Encyclopédie canadienne, BUCKNER, Phillip. (Page consultée le 18 mai 2022). _Durham, John George Lambton, 1er comte de_, [En ligne]. Adresse URL: https://thecanadianencyclopedia.ca/fr/article/john-george-lambton-1st-earl-of-durham
+- Commission de toponymie (Page consultée le 17 mai 2022). _Figures marquantes du mouvement patriote_, [En ligne]. Adresse URL: https://cartes.toponymie.gouv.qc.ca/patriotes
 - Wikipédia. (Page consultée le 18 mai 2022). _John George Lambton_, [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/John_George_Lambton
 - Wikipédia. (Page consultée le 20 mai 2022). _Jean-Olivier Chénier_, [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Jean-Olivier_Chénier
 - Wikipédia. (Page consultée le 15 mai 2022). _Louis-Joseph Papineau_, [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Louis-Joseph_Papineau

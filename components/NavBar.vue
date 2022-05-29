@@ -78,7 +78,7 @@ export default Vue.extend({
     margin-left: 1.5rem;
     font-size: 2rem;
   }
-  
+
   .nav-items {
     display: flex;
     list-style: none;

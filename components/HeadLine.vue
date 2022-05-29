@@ -20,7 +20,11 @@ If not, see <https://www.gnu.org/licenses/>.
       <h1 :class="{ titre: true, logo: $props.titre === 'Projet Patriotes' }">
         {{ $props.titre }}
       </h1>
-      <p>Projet fait par William Ao et Adnan Taha</p>
+      <p>
+        Projet fait par William Ao et Adnan Taha
+        <br />
+        Sous la direction de Mme. Déry (histoire) et de Mme. Roussel (français)
+      </p>
     </div>
     <div
       v-show="!$props.noarrow"

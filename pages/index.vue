@@ -17,7 +17,7 @@ If not, see <https://www.gnu.org/licenses/>.
 <template>
   <div>
     <NavBar />
-    <BodyBg titre="Projet Patriotes" :noarrow="true">
+    <BodyBg titre="Projet Patriotes">
       <ParagrapheTexte>
         <NuxtContent class="markdown-content" :document="page" />
       </ParagrapheTexte>

@@ -29,9 +29,11 @@ html {
 ::-webkit-scrollbar-thumb {
   background-color: #2a373e;
   border-radius: 100vw;
+
   :hover {
     background-color: $selection-background;
   }
+
   :active {
     background-color: #ffd3a3;
   }

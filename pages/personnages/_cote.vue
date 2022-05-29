@@ -83,6 +83,7 @@ export default {
 .liste#premiereSection {
   height: auto;
   padding: 1vw;
+
   ul {
     display: flex;
     flex-flow: column nowrap;
@@ -91,10 +92,6 @@ export default {
 }
 
 .personnage {
-  @media only screen and (hover: none) and (pointer: coarse) {
-    flex-flow: column nowrap;
-    align-items: cen;
-  }
   display: inline-flex;
   height: fit-content;
   padding: 2rem;
@@ -113,10 +110,12 @@ export default {
     padding: 0 1em 1em 1em;
     overflow: hidden;
     margin-right: auto;
+
     .markdown-content {
       padding: 0;
     }
   }
+
   figure {
     height: auto;
     display: inline-flex;
@@ -124,6 +123,7 @@ export default {
     max-width: auto;
     margin-top: auto;
     margin-bottom: auto;
+
     img {
       height: 20rem;
       border-radius: 1rem;
@@ -146,6 +146,7 @@ export default {
       img {
         border-radius: 1rem 1rem 0 0;
       }
+
       figcaption {
         opacity: 1;
       }

@@ -72,11 +72,13 @@ export default Vue.extend({
   flex-direction: row;
   height: 5rem;
   color: $text;
+
   .logo {
     max-width: fit-content;
     margin-left: 1.5rem;
     font-size: 2rem;
   }
+  
   .nav-items {
     display: flex;
     list-style: none;

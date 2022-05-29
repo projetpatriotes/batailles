@@ -33,9 +33,11 @@ h2 {
 a {
   text-decoration: underline;
   color: #3498db;
+
   &:visited {
     color: #9b59b6;
   }
+
   &:hover {
     text-decoration: underline double;
   }

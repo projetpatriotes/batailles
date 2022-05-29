@@ -76,11 +76,13 @@ export default {
   flex-direction: column;
   align-items: center;
   align-content: center;
+
   button {
     background-color: transparent;
     font-size: 1rem;
     cursor: pointer;
   }
+
   ul {
     width: 100%;
     top: 2rem;
@@ -89,11 +91,14 @@ export default {
     list-style-type: none;
     visibility: visible;
     border-radius: 0 0 1rem 1rem;
+
     &.dropdown-hidden {
       visibility: hidden;
     }
+
     li {
       padding: 1rem;
+
       a {
         &:hover,
         &:active,
@@ -103,9 +108,11 @@ export default {
           background-color: $selection-foreground !important;
         }
       }
+
       &:first-of-type {
         margin-top: 0.625rem;
       }
+
       &:last-of-type {
         margin-bottom: 0.625rem;
       }

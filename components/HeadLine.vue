@@ -68,6 +68,7 @@ export default {
 .titre {
   font-size: 4rem;
 }
+
 .scroll-button {
   position: absolute;
   z-index: 0;
@@ -96,9 +97,11 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
+
   p {
     font-size: 1.3rem;
   }
+
   .items {
     padding: 1em;
     background-color: rgba($selection-background, 0.75);

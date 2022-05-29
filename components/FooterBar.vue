@@ -56,6 +56,7 @@ footer {
   display: inline-flex;
   font-size: 0.95rem;
   align-items: center;
+
   img {
     margin: 0.5rem 0 0 0.5rem;
   }

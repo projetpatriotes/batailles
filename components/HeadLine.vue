@@ -27,7 +27,7 @@ If not, see <https://www.gnu.org/licenses/>.
       </p>
     </div>
     <div
-      v-show="!$props.noarrow"
+      v-show="$props.arrow"
       v-scroll-to="'#premiereSection'"
       class="scroll-button"
     >
@@ -46,9 +46,9 @@ export default {
       type: String,
       default: 'Projet Patriotes'
     },
-    noarrow: {
+    arrow: {
       type: Boolean,
-      default: false
+      default: true
     }
   }
 };

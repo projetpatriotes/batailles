@@ -24,7 +24,7 @@ If not, see <https://www.gnu.org/licenses/>.
 .paragraphe {
   height: auto;
   padding: 1vw;
-  
+
   ul {
     padding-left: 1.5vw;
   }

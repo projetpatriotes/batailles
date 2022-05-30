@@ -15,17 +15,34 @@ If not, see <https://www.gnu.org/licenses/>.
 -->
 
 <template>
-  <!-- https://fonts.google.com/icons?selected=Material+Symbols+Rounded:arrow_downward -->
+  <!-- https://fonts.google.com/icons?selected=Material+Symbols+Rounded:expand_more -->
   <svg xmlns="http://www.w3.org/2000/svg" class="arrow-downward-icon">
     <path
-      d="M24 39.4Q23.75 39.4 23.475 39.3Q23.2 39.2 22.95 38.95L9.05 25.05Q8.6 24.6 8.6 24Q8.6 23.4 9.05 22.95Q9.5 22.5 10.1 22.5Q10.7 22.5 11.15 22.95L22.5 34.3V9.5Q22.5 8.85 22.925 8.425Q23.35 8 24 8Q24.65 8 25.075 8.425Q25.5 8.85 25.5 9.5V34.3L36.85 22.95Q37.3 22.5 37.9 22.5Q38.5 22.5 38.95 22.95Q39.4 23.4 39.4 24Q39.4 24.6 38.95 25.05L25.05 38.95Q24.8 39.2 24.55 39.3Q24.3 39.4 24 39.4Z"
+      d="M24 30.15Q23.7 30.15 23.45 30.05Q23.2 29.95 22.95 29.7L13.05 19.8Q12.65 19.4 12.675 18.725Q12.7 18.05 13.1 17.65Q13.6 17.15 14.175 17.225Q14.75 17.3 15.2 17.7L24 26.5L32.8 17.7Q33.2 17.3 33.875 17.25Q34.55 17.2 34.95 17.7Q35.45 18.1 35.375 18.75Q35.3 19.4 34.9 19.85L25.05 29.7Q24.8 29.95 24.55 30.05Q24.3 30.15 24 30.15Z"
+      :class="{ reversed: $props.reversed }"
     />
   </svg>
 </template>
 
-<style>
+<script>
+export default {
+  props: {
+    reversed: {
+      type: Boolean,
+      default: false
+    }
+  }
+};
+</script>
+
+<style lang="scss">
 .arrow-downward-icon {
   height: 48px;
   width: 48px;
+
+  .reversed {
+    transform: rotate(180deg);
+    transform-origin: 50% 50%;
+  }
 }
 </style>

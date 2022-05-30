@@ -89,7 +89,6 @@ export default {
       'vue-scrollto/nuxt',
       {
         duration: 500,
-        offset: -75,
         easing: 'ease-in-out'
       }
     ]

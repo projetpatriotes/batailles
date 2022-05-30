@@ -58,7 +58,12 @@ export default {
   beforeDestroy() {
     window.removeEventListener('click', this.close);
   },
-
+  // yet another kind stranger https://stackoverflow.com/a/66897888
+  watch: {
+    $route() {
+      this.dropdownOpen = false;
+    }
+  },
   methods: {
     close(event) {
       if (!this.$el.contains(event.target)) {
@@ -85,7 +90,7 @@ export default {
 
   ul {
     width: 100%;
-    top: 2rem;
+    top: 2.1rem;
     background-color: $selection-background;
     position: absolute;
     list-style-type: none;

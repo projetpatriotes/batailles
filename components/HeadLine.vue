@@ -28,7 +28,7 @@ If not, see <https://www.gnu.org/licenses/>.
     </div>
     <div
       v-show="$props.arrow"
-      v-scroll-to="'#premiereSection'"
+      v-scroll-to="{ el: '#premiereSection', offset: -75 }"
       class="scroll-button"
     >
       <ArrowDownIcon />

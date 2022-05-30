@@ -52,7 +52,10 @@ export default {
         'An error occurred while rendering the page. Check developer tools console for details.':
           "Une erreur s'est produite dans l'application et votre page n'a pas pu être servie. Si vous êtes le propriétaire de l'application, consultez les logs pour plus de détails."
       };
-      return replaceGuide[this.error.message] || this.error.message;
+      return (
+        replaceGuide[this.error.message] ||
+        this.error.message.replace('not found', 'est introuvable')
+      );
     },
     hasPreviousPage() {
       return window.history.length > 2;

@@ -52,6 +52,7 @@ footer {
   font-size: 1rem;
   padding: 1.5rem;
 }
+
 .copyright {
   display: inline-flex;
   font-size: 0.95rem;

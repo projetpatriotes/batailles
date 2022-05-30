@@ -15,37 +15,33 @@ If not, see <https://www.gnu.org/licenses/>.
 -->
 
 <template>
-  <div>
-    <NavBar />
-    <BodyBg :titre="'Personnages ' + cote" :image="images[cote]">
-      <section id="premiereSection" class="liste">
-        <ul>
-          <li
-            v-for="(personnage, index) in personnages"
-            :key="index"
-            :style="{
-              'flex-direction': index % 2 === 0 ? 'row' : 'row-reverse'
-            }"
-            class="personnage"
-          >
-            <div class="text">
-              <h2>{{ personnage.nom }}</h2>
-              <NuxtContent class="markdown-content" :document="personnage" />
-            </div>
-            <figure>
-              <img
-                :src="getImage(personnage.image || 'portraits/default')"
-                :alt="personnage.alt"
-                :style="getImageMargin(index)"
-              />
-              <figcaption>{{ personnage.alt }}</figcaption>
-            </figure>
-          </li>
-        </ul>
-      </section>
-    </BodyBg>
-    <FooterBar />
-  </div>
+  <BodyBg :titre="'Personnages ' + cote" :image="images[cote]">
+    <section id="premiereSection" class="liste">
+      <ul>
+        <li
+          v-for="(personnage, index) in personnages"
+          :key="index"
+          :style="{
+            'flex-direction': index % 2 === 0 ? 'row' : 'row-reverse'
+          }"
+          class="personnage"
+        >
+          <div class="text">
+            <h2>{{ personnage.nom }}</h2>
+            <NuxtContent class="markdown-content" :document="personnage" />
+          </div>
+          <figure>
+            <img
+              :src="getImage(personnage.image || 'portraits/default')"
+              :alt="personnage.alt"
+              :style="getImageMargin(index)"
+            />
+            <figcaption>{{ personnage.alt }}</figcaption>
+          </figure>
+        </li>
+      </ul>
+    </section>
+  </BodyBg>
 </template>
 
 <script>

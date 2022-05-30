@@ -15,15 +15,11 @@ If not, see <https://www.gnu.org/licenses/>.
 -->
 
 <template>
-  <div>
-    <NavBar />
-    <BodyBg titre="Bibliographie">
-      <ParagrapheTexte>
-        <NuxtContent class="markdown-content" :document="page" />
-      </ParagrapheTexte>
-    </BodyBg>
-    <FooterBar />
-  </div>
+  <BodyBg titre="Bibliographie">
+    <ParagrapheTexte>
+      <NuxtContent class="markdown-content" :document="page" />
+    </ParagrapheTexte>
+  </BodyBg>
 </template>
 
 <script>

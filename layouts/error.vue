@@ -112,6 +112,10 @@ export default {
       margin-bottom: 0.5rem;
     }
 
+    .error-link:hover {
+      cursor: pointer;
+    }
+
     .description {
       line-height: 1.5rem;
       margin-bottom: 0.75rem;

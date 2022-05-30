@@ -1,5 +1,5 @@
 - VÉRONIQUE, Déry. Histoire et éducation à la citoyenneté: Cahier de l'élève, Montreal, Véronique, 2022, 134 p.
-- Wikipédia. (Page consultée le 20 mai 2022). _Rébellion des Patriotes_ [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Rébellion_des_Patriotes
+- Wikipédia. (Page consultée le 20 mai 2022). _Rébellion des Patriotes_, [En ligne]. Adresse URL: https://fr.wikipedia.org/wiki/Rébellion_des_Patriotes
 
 **Personnages**
 

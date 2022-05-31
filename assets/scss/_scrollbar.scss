@@ -30,11 +30,11 @@ html {
   background-color: #2a373e;
   border-radius: 100vw;
 
-  :hover {
+  &:hover {
     background-color: $selection-background;
   }
 
-  :active {
+  &:active {
     background-color: #ffd3a3;
   }
 }

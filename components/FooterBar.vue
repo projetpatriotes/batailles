@@ -1,6 +1,6 @@
 <!--
-Copyright © 2022-present Adnan-Aidan Taha and William Ao
-Copyright © 2022-present Adnan-Aidan Taha and William Ao
+Copyright © 2022 Adnan-Aidan Taha and William Ao
+Copyright © 2022 Adnan-Aidan Taha and William Ao
 This file is part of "Projet Patriotes".
 
 "Projet Patriotes" is free software: you can redistribute it and/or modify it under the terms
@@ -24,8 +24,8 @@ If not, see <https://www.gnu.org/licenses/>.
         français de secondaire 3 de l'année scolaire 2021-2022.
       </div>
       <div class="copyright">
-        Copyright © 2022-present Adnan-Aidan Taha et William Ao. Ce travail est
-        licensé sous la
+        Copyright © 2022 Adnan-Aidan Taha et William Ao. Ce travail est licensé
+        sous la
         <a :href="licenseUrl" target="_blank">
           <img :src="licenseLogo" :alt="licenseName" />
         </a>

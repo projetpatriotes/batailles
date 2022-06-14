@@ -31,16 +31,13 @@ If not, see <https://www.gnu.org/licenses/>.
       v-scroll-to="{ el: '#premiereSection', offset: -75 }"
       class="scroll-button"
     >
-      <ArrowDownIcon />
+      <IconArrowDown />
     </div>
   </section>
 </template>
 
 <script>
-import ArrowDownIcon from '~/components/icons/ArrowDownIcon.vue';
-
 export default {
-  components: { ArrowDownIcon },
   props: {
     titre: {
       type: String,

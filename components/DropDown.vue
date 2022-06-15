@@ -23,7 +23,11 @@ If not, see <https://www.gnu.org/licenses/>.
       {{ titre }}
     </button>
     <ul v-show="dropdownOpen">
-      <li v-for="(item, index) in items" :key="index">
+      <li
+        @click="dropdownOpen = false"
+        v-for="(item, index) in items"
+        :key="index"
+      >
         <NuxtLink :to="item.path">
           {{ item.title }}
         </NuxtLink>

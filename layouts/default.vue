@@ -3,5 +3,6 @@
     <NavBar />
     <Nuxt />
     <FooterBar />
+    <BackToTop />
   </div>
 </template>

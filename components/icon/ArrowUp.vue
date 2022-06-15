@@ -15,16 +15,16 @@ If not, see <https://www.gnu.org/licenses/>.
 -->
 
 <template>
-  <!-- https://fonts.google.com/icons?selected=Material+Symbols+Rounded:expand_more -->
-  <svg xmlns="http://www.w3.org/2000/svg" class="arrow-down-icon">
+  <!-- https://fonts.google.com/icons?selected=Material+Symbols+Rounded:expand_less -->
+  <svg xmlns="http://www.w3.org/2000/svg" class="arrow-up-icon">
     <path
-      d="M24 30.15Q23.7 30.15 23.45 30.05Q23.2 29.95 22.95 29.7L13.05 19.8Q12.65 19.4 12.675 18.725Q12.7 18.05 13.1 17.65Q13.6 17.15 14.175 17.225Q14.75 17.3 15.2 17.7L24 26.5L32.8 17.7Q33.2 17.3 33.875 17.25Q34.55 17.2 34.95 17.7Q35.45 18.1 35.375 18.75Q35.3 19.4 34.9 19.85L25.05 29.7Q24.8 29.95 24.55 30.05Q24.3 30.15 24 30.15Z"
+      d="M13.1 29.65Q12.65 29.2 12.625 28.6Q12.6 28 13.05 27.55L22.95 17.65Q23.2 17.4 23.45 17.3Q23.7 17.2 24 17.2Q24.3 17.2 24.55 17.3Q24.8 17.4 25.05 17.65L34.95 27.5Q35.4 27.9 35.4 28.525Q35.4 29.15 34.95 29.6Q34.5 30.05 33.875 30.05Q33.25 30.05 32.8 29.6L24 20.85L15.2 29.7Q14.8 30.15 14.175 30.125Q13.55 30.1 13.1 29.65Z"
     />
   </svg>
 </template>
 
 <style>
-.arrow-down-icon {
+.arrow-up-icon {
   height: 48px;
   width: 48px;
 }

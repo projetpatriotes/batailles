@@ -29,7 +29,7 @@ If not, see <https://www.gnu.org/licenses/>.
     <div
       v-show="$props.arrow"
       v-scroll-to="{ el: '#premiereSection', offset: -75 }"
-      class="scroll-button"
+      class="scroll-button to-bottom"
     >
       <IconArrowDown />
     </div>
@@ -66,7 +66,7 @@ export default {
   font-size: 4rem;
 }
 
-.scroll-button {
+.scroll-button.to-bottom {
   position: absolute;
   z-index: 0;
   left: 50%;
